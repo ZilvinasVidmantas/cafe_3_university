@@ -1,8 +1,9 @@
 import softwareSystems from "./info/software-systems.js";
+import meteorologyAndHidrology from './chem/meteorology-hidrology.js';
 
 const studyPrograms = [
   softwareSystems,
-  // studyProgram2,
+  meteorologyAndHidrology,
   // studyProgram3,
   // studyProgram4,
   // studyProgram5,
