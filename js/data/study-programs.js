@@ -1,7 +1,9 @@
 import softwareSystems from "./info/software-systems.js";
+import philosophy from "./philo/philosophy.js";
 
 const studyPrograms = [
   softwareSystems,
+  philosophy,
   // studyProgram2,
   // studyProgram3,
   // studyProgram4,
