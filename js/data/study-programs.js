@@ -1,8 +1,9 @@
 import softwareSystems from "./info/software-systems.js";
+import managementEnglish from "./eco/management-english.js";
 
 const studyPrograms = [
   softwareSystems,
-  // studyProgram2,
+  managementEnglish,
   // studyProgram3,
   // studyProgram4,
   // studyProgram5,
