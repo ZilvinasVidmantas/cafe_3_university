@@ -17,5 +17,3 @@ const studentsInfoMathematicsAndItsApplications = [
   new Student('Caxeo', 'Pruvondun', mathematicsAndItsApplications.id),
   new Student('Hawan', 'Baintai', mathematicsAndItsApplications.id),
 ];
-
-
