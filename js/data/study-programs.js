@@ -1,7 +1,9 @@
-import softwareSystems from "./info-math/software-systems.js";
+import softwareSystems from "./info/software-systems.js";
+import { businessAndLaw } from "./economics-business/business-law.js";
 
 const studyPrograms = [
   softwareSystems,
+  businessAndLaw,
   // studyProgram2,
   // studyProgram3,
   // studyProgram4,
