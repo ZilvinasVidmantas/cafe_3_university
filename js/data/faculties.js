@@ -1,9 +1,10 @@
 import Faculty from '../entities/faculty.js';
 
-const faculties = [];
 
-export const informaticsFaculty = new Faculty('Informatikos fakultetas');
+export const infoAndMathFaculty = new Faculty('Informatikos ir matematikos fakultetas');
 
-faculties.push(informaticsFaculty);
+const faculties = [
+  infoAndMathFaculty,
+];
 
 export default faculties;
