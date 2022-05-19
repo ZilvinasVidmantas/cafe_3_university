@@ -149,4 +149,4 @@ modules.push(
     managementEnglishSemester8module2,
 );
 
-export default management-and-business-administration;
+export default management-english;

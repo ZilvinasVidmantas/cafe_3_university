@@ -1,9 +1,13 @@
 import { softwareSystemsModules } from './info/software-systems.js';
-import {}
+import managementEnglish from './eco/management-english.js';
+import { faculties } from './eco/management-english.js';
+import { studyPrograms } from './eco/management-english.js';
+import { modules } from './eco/management-english.js';
+
 
 const modules = [
   ...softwareSystemsModules,
-  // ...softwareSystemsModules,
+  ...managementEnglishModules,
   // ...lawModules,
   // ...biologyModules,
   // ...chemistryModules,

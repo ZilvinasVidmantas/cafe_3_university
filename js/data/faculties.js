@@ -7,7 +7,7 @@ export const ecoFaculty = new Faculty('Ekonomikos ir verslo adminstravimo fakult
 
 const faculties = [
   infoAndMathFaculty,
-  managementAndBusinessAdministrationFaculty,
+  ecoFaculty,
 ];
 
 export default faculties;
