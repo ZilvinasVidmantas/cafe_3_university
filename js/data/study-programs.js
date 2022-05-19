@@ -1,17 +1,15 @@
-import softwareSystems from "./info/software-systems.js";
+import softwareSystems from "./info-math/software-systems.js";
+import mathematicsAndItsApplications from "./info-math/mathematics-and-its-applications.js";
+import dataScience from "./info-math/data-science.js";
+import businessAndLaw from "./eco/business-law.js";
 import odontology from "./med/odontology.js";
 
 const studyPrograms = [
   softwareSystems,
+  mathematicsAndItsApplications,
+  dataScience,
+  businessAndLaw,
   odontology,
-  // studyProgram2,
-  // studyProgram3,
-  // studyProgram4,
-  // studyProgram5,
-  // studyProgram6,
-  // studyProgram7,
-  // studyProgram8,
-  // ...
 ];
 
 export default studyPrograms;
