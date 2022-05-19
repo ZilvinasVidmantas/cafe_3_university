@@ -1,12 +1,11 @@
 import StudyProgram from '../../entities/study-program.js';
 import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
-import { chemistryFaculty } from '../faculties.js';
-
+import { chemistryAndGeoScienceFaculty } from '../faculties.js';
 
 export const nanoChemistryModules = [];
 
-const nanoChemistry = new StudyProgram('Nanomedžiagų chemija', chemistryFaculty.id);
+const nanoChemistry = new StudyProgram('Nanomedžiagų chemija', chemistryAndGeoScienceFaculty.id);
 
 const nanoChemistrySemester1 = new StudyProgramSemester();
 const nanoChemistrySemester1module1 = new Module('Akademinė ir mokslinė anglų kalba C1', 5)
@@ -26,7 +25,6 @@ nanoChemistrySemester2.addModule(nanoChemistrySemester2module1.id);
 nanoChemistrySemester2.addModule(nanoChemistrySemester2module2.id);
 nanoChemistrySemester2.addModule(nanoChemistrySemester2module3.id);
 
-
 const nanoChemistrySemester3 = new StudyProgramSemester();
 const nanoChemistrySemester3module1 = new Module('Fizika II/II d.', 10)
 const nanoChemistrySemester3module2 = new Module('Kvantinė chemija', 5)
@@ -36,7 +34,6 @@ nanoChemistrySemester3.addModule(nanoChemistrySemester3module1.id);
 nanoChemistrySemester3.addModule(nanoChemistrySemester3module2.id);
 nanoChemistrySemester3.addModule(nanoChemistrySemester3module3.id);
 nanoChemistrySemester3.addModule(nanoChemistrySemester3module4.id);
-
 
 const nanoChemistrySemester4 = new StudyProgramSemester();
 const nanoChemistrySemester4module1 = new Module('Bioaktyvios medžiagos', 5)
