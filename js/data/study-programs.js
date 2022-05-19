@@ -1,4 +1,4 @@
-import softwareSystems from "./info/software-systems.js";
+import softwareSystems from "./info-math/software-systems.js";
 import nursingProgram from "./med/nursing.js";
 
 const studyPrograms = [

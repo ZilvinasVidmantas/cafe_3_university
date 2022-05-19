@@ -1,4 +1,4 @@
-import { softwareSystemsModules } from './info/software-systems.js';
+import { softwareSystemsModules } from './info-math/software-systems.js';
 import { nursingProgramModules } from './med/nursing.js';
 
 
