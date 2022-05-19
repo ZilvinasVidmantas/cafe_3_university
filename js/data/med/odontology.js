@@ -126,7 +126,7 @@ odontology.addSemester(8, odontologySemester8)
 odontology.addSemester(9, odontologySemester9)
 odontology.addSemester(10, odontologySemester10)
 
-modules.push(
+export const odontologyModules = [
   odontologySemester1Module1,
   odontologySemester1Module2,
   odontologySemester1Module3,
@@ -168,7 +168,7 @@ modules.push(
   odontologySemester10Module1,
   odontologySemester10Module2,
   odontologySemester10Module3,
-);
+];
 
 
 
