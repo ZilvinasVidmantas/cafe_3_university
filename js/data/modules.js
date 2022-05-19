@@ -1,11 +1,10 @@
 import { softwareSystemsModules } from './info/software-systems.js';
+import pharmacy, { pharmacyModules } from './med/pharmacy.js';
 
 const modules = [
   ...softwareSystemsModules,
-  // ...softwareSystemsModules,
-  // ...lawModules,
-  // ...biologyModules,
-  // ...chemistryModules,
+  ...pharmacy,
+
 ];
 
 export default modules;
