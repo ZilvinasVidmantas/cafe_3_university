@@ -1,8 +1,9 @@
 import { softwareSystemsModules } from './info/software-systems.js';
+import { dataScienceModules } from './info/data-science.js';
 
 const modules = [
   ...softwareSystemsModules,
-  // ...softwareSystemsModules,
+  ...dataScienceModules,
   // ...lawModules,
   // ...biologyModules,
   // ...chemistryModules,

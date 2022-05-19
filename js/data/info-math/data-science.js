@@ -87,7 +87,7 @@ dataScience.addSemester(6, dataScienceSemester6);
 dataScience.addSemester(7, dataScienceSemester7);
 dataScience.addSemester(8, dataScienceSemester8);
 
-modules.push(
+export const dataScienceModules =[
     dataScienceSemester1module1,
     dataScienceSemester1module2,
     dataScienceSemester1module3,
@@ -116,6 +116,6 @@ modules.push(
     dataScienceSemester7module2,
     dataScienceSemester8module1,
     dataScienceSemester8module2,
-);
+];
 
 export default dataScience;
