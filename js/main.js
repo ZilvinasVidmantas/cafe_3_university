@@ -1,8 +1,8 @@
-import mathematicsAndItsApplications from './data/info-math/software-systems.js';
 import Student from "./entities/student.js";
-import softwareSystems from "./data/info/software-systems.js";
-import businessAndLaw from "./data/economics-business/business-law.js";
-import dataScience from './data/info/data-science.js';
+import softwareSystems from "./data/info-math/software-systems.js";
+import dataScience from './data/info-math/data-science.js';
+import mathematicsAndItsApplications from './data/info-math/mathematics-and-its-applications.js';
+import businessAndLaw from "./data/eco/business-law.js";
 
 const studentsInfoAndMathSoftwareSystems = [
   new Student("Apsas", "Rekvestenis", softwareSystems.id),
@@ -32,3 +32,8 @@ const studentsInfoMathematicsAndItsApplications = [
   new Student('Caxeo', 'Pruvondun', mathematicsAndItsApplications.id),
   new Student('Hawan', 'Baintai', mathematicsAndItsApplications.id),
 ];
+
+console.table(studentsInfoAndMathSoftwareSystems);
+console.table(studentsInfoAndMathBusinessAndLaw);
+console.table(studentsInfoAndMathDataScience);
+console.table(studentsInfoMathematicsAndItsApplications);

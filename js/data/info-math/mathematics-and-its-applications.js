@@ -3,7 +3,6 @@ import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
 import { infoAndMathFaculty } from '../faculties.js';
 
-
 const mathematicsAndItsApplications = new StudyProgram('Matematika ir matematikos taikymai', infoAndMathFaculty.id);
 
 const mathematicsAndItsApplicationsSemester1 = new StudyProgramSemester();

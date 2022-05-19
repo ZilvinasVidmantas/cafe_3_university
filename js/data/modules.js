@@ -1,16 +1,13 @@
-import { softwareSystemsModules } from './info/software-systems.js';
-import { mathematicsAndItsApplications } from './info-math/mathematicsAndItsApplications.js';
-import { dataScienceModules } from './info/data-science.js';
-import { economicsAndBusinessModules } from "./economics-business/business-law.js";
+import { softwareSystemsModules } from './info-math/software-systems.js';
+import { mathematicsAndItsApplicationsModules } from './info-math/mathematics-and-its-applications.js';
+import { dataScienceModules } from './info-math/data-science.js';
+import { economicsAndBusinessModules } from "./eco/business-law.js";
 
 const modules = [
   ...softwareSystemsModules,
   ...dataScienceModules,
   ...economicsAndBusinessModules,
-  ...mathematicsAndItsApplications,
-  // ...lawModules,
-  // ...biologyModules,
-  // ...chemistryModules,
+  ...mathematicsAndItsApplicationsModules,
 ];
 
 export default modules;

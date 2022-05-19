@@ -11,10 +11,7 @@ const businessAndLaw = new StudyProgram(
 const businessAndLawSemester1 = new StudyProgramSemester();
 const businessAndLawSemester1module1 = new Module("Dalykinė anglų kalba C1", 5);
 const businessAndLawSemester1module2 = new Module("Ekonomikos teorija", 5);
-const businessAndLawSemester1module3 = new Module(
-  "Įvadas į teisinę sistemą",
-  5
-);
+const businessAndLawSemester1module3 = new Module("Įvadas į teisinę sistemą", 5);
 const businessAndLawSemester1module4 = new Module("Vadyba", 5);
 const businessAndLawSemester1module5 = new Module(
   "Valstybės valdžios institucijų veiklos teisiniai pagrindai",
@@ -33,12 +30,9 @@ const businessAndLawSemester2module2 = new Module(
   "Civilinės teisės bendroji dalis",
   5
 );
-const businessAndLawSemester2module3 = new Module(
-  "Informacinės technologijos",
-  5
-);
+const businessAndLawSemester2module3 = new Module("Informacinės technologijos", 5);
 const businessAndLawSemester2module4 = new Module("Rinkodara", 5);
-const softwareSystemsSemester2module5 = new Module("Verslo statistika", 5);
+const businessAndLawSemester2module5 = new Module("Verslo statistika", 5);
 businessAndLawSemester2.addModule(businessAndLawSemester2module1.id);
 businessAndLawSemester2.addModule(businessAndLawSemester2module2.id);
 businessAndLawSemester2.addModule(businessAndLawSemester2module3.id);
@@ -135,14 +129,14 @@ const businessAndLawSemester7module4 = new Module(
   5
 );
 const businessAndLawSemester7module5 = new Module("Verslo tyrimai", 5);
-businessAndLawSSemester7.addModule(businessAndLawSSemester7module1.id);
-businessAndLawSSemester7.addModule(businessAndLawSSemester7module2.id);
-businessAndLawSSemester7.addModule(businessAndLawSSemester7module3.id);
-businessAndLawSSemester7.addModule(businessAndLawSSemester7module4.id);
-businessAndLawSSemester7.addModule(businessAndLawSSemester7module5.id);
+businessAndLawSemester7.addModule(businessAndLawSemester7module1.id);
+businessAndLawSemester7.addModule(businessAndLawSemester7module2.id);
+businessAndLawSemester7.addModule(businessAndLawSemester7module3.id);
+businessAndLawSemester7.addModule(businessAndLawSemester7module4.id);
+businessAndLawSemester7.addModule(businessAndLawSemester7module5.id);
 
-const businessAndLawSSemester8 = new StudyProgramSemester();
-const businessAndLawSSemester8module1 = new Module(
+const businessAndLawSemester8 = new StudyProgramSemester();
+const businessAndLawSemester8module1 = new Module(
   "Bakalauro baigiamasis darbas (kryptis: verslas)",
   15
 );

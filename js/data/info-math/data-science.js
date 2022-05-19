@@ -3,8 +3,7 @@ import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
 import { infoAndMathFaculty } from '../faculties.js';
 
-const dataScience = new StudyProgram('Duomenų mokslas', informaticsFaculty.id);
-
+const dataScience = new StudyProgram('Duomenų mokslas', infoAndMathFaculty.id);
 
 const dataScienceSemester1 = new StudyProgramSemester();
 const dataScienceSemester1module1 = new Module('Akademinė ir mokslinė anglų kalba C1', 5)
@@ -87,7 +86,7 @@ dataScience.addSemester(6, dataScienceSemester6);
 dataScience.addSemester(7, dataScienceSemester7);
 dataScience.addSemester(8, dataScienceSemester8);
 
-export const dataScienceModules =[
+export const dataScienceModules = [
     dataScienceSemester1module1,
     dataScienceSemester1module2,
     dataScienceSemester1module3,
