@@ -1,9 +1,11 @@
+import mathematicsAndItsApplications from "./info-math/mathematics-and-its-applications.js";
 import softwareSystems from "./info/software-systems.js";
 import dataScience from "./info-math/data-science.js";
 import { businessAndLaw } from "./economics-business/business-law.js";
 
 const studyPrograms = [
   softwareSystems,
+  mathematicsAndItsApplications,
   dataScience,
   businessAndLaw,
   // studyProgram2,

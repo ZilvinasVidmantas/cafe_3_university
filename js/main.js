@@ -1,3 +1,4 @@
+import mathematicsAndItsApplications from './data/info-math/software-systems.js';
 import Student from "./entities/student.js";
 import softwareSystems from "./data/info/software-systems.js";
 import businessAndLaw from "./data/economics-business/business-law.js";
@@ -23,4 +24,11 @@ const studentsInfoAndMathDataScience = [
   new Student('Rokas', 'Rokaitis', dataScience.id),
   new Student('Lukas', 'Lukaitis', dataScience.id),
   new Student('Jonas', 'Jonaitis', dataScience.id),
+];
+const studentsInfoMathematicsAndItsApplications = [
+  new Student('Toushaing', 'Dluqum', mathematicsAndItsApplications.id),
+  new Student('Esoo', 'Prupia', mathematicsAndItsApplications.id),
+  new Student('Dha', 'Adeed', mathematicsAndItsApplications.id),
+  new Student('Caxeo', 'Pruvondun', mathematicsAndItsApplications.id),
+  new Student('Hawan', 'Baintai', mathematicsAndItsApplications.id),
 ];
