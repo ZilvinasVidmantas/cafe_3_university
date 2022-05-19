@@ -1,17 +1,10 @@
-import Faculty from './entities/faculty.js';
-import StudyProgram from './entities/study-program.js';
-import StudyProgramSemester from './entities/study-program-semester.js';
-import Module from './entities/module.js';
+import StudyProgram from '../../entities/faculty.js';
+import StudyProgramSemester from '../../entities/study-program-semester.js';
+import Module from '../../entities/module.js';
+import { ecoFaculty } from '../faculties.js';
 
-export const faculties = [];
-export const studyPrograms = [];
-export const modules = [];
 
-const managementAndBusinessAdministrationFaculty = new Faculty('Ekonomikos ir verslo administravimo fakultetas');
-faculties.push(managementAndBusinessAdministrationFaculty);
-
-const managementEnglish = new StudyProgram('Vadyba anglų k.', managementAndBusinessAdministrationFaculty.id);
-studyPrograms.push(managementEnglish);
+const managementEnglish = new StudyProgram('Vadyba anglų k.', ecoFaculty.id);
 
 const managementEnglishSemester1 = new StudyProgramSemester();
 const managementEnglishSemester1module1 = new Module('Dalykinė anglų kalba C1', 5)
@@ -110,7 +103,7 @@ managementEnglish.addSemester(6, managementEnglishSemester6);
 managementEnglish.addSemester(7, managementEnglishSemester7);
 managementEnglish.addSemester(8, managementEnglishSemester8);
 
-modules.push(
+export const managementEnglishModules = [
     managementEnglishSemester1module1,
     managementEnglishSemester1module2,
     managementEnglishSemester1module3,
@@ -147,6 +140,6 @@ modules.push(
     managementEnglishSemester7module5,
     managementEnglishSemester8module1,
     managementEnglishSemester8module2,
-);
+];
 
 export default management-english;
