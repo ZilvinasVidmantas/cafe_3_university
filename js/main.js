@@ -1,4 +1,5 @@
 import softwareSystems from './data/info/software-systems.js';
+import medicine from './data/med/medicine.js';
 import softwareSystems from './data/med/medicine.js';
 import modules from './data/modules.js'
 import Student from './entities/student.js';
@@ -12,11 +13,11 @@ const studentsInfoAndMathSoftwareSystems = [
 ];
 
 const studentsMedicine = [
-  new Student('Paulius', 'Kontauskas', modules.id),
-  new Student('Petras', 'Ivanauskas', modules.id),
-  new Student('Robertas', 'Pubsauskas', modules.id),
-  new Student('Jonas', 'Romaitis', modules.id),
-  new Student('Petraitis', 'Jonaitytis', modules.id),
+  new Student('Paulius', 'Kontauskas', medicine.id),
+  new Student('Petras', 'Ivanauskas', medicine.id),
+  new Student('Robertas', 'Pubsauskas', medicine.id),
+  new Student('Jonas', 'Romaitis', medicine.id),
+  new Student('Petraitis', 'Jonaitytis', medicine.id),
 ];
 
 
