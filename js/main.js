@@ -10,4 +10,11 @@ const studentsInfoAndMathSoftwareSystems = [
   new Student('Kompiuterė', 'Komplailerytė', softwareSystems.id),
 ];
 
+const studentsBioinformatics = [
+  new Student('Liepa', 'Liepaitė', bioinformatics.id),
+  new Student('Rasa', 'Rasaitė', bioinformatics.id),
+  new Student('Jonas', 'Smitas', bioinformatics.id),
+  new Student('Regimantas', 'Regis', bioinformatics.id),
+  new Student('Montvydas', 'Montvis', bioinformatics.id)
+]
 
