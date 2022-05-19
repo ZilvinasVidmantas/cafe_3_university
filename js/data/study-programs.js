@@ -2,6 +2,7 @@ import softwareSystems from "./info/software-systems.js";
 
 const studyPrograms = [
   softwareSystems,
+  odontology,
   // studyProgram2,
   // studyProgram3,
   // studyProgram4,
