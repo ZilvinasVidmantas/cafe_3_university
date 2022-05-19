@@ -1,8 +1,9 @@
+import mathematicsAndItsApplications from "./info-math/mathematics-and-its-applications.js";
 import softwareSystems from "./info/software-systems.js";
 
 const studyPrograms = [
   softwareSystems,
-  // studyProgram2,
+  mathematicsAndItsApplications,
   // studyProgram3,
   // studyProgram4,
   // studyProgram5,
