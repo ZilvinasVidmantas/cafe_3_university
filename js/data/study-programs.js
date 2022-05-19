@@ -1,8 +1,9 @@
-import softwareSystems from "./info/software-systems.js";
+import softwareSystems from "./info-math/software-systems.js";
+import occupationalTherapy from "./med/occupational-therapy.js";
 
 const studyPrograms = [
   softwareSystems,
-  // studyProgram2,
+  occupationalTherapy,
   // studyProgram3,
   // studyProgram4,
   // studyProgram5,
