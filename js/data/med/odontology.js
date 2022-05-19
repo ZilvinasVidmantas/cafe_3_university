@@ -170,6 +170,8 @@ export const odontologyModules = [
   odontologySemester10Module3,
 ];
 
+export default odontology;
+
 
 
 

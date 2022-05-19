@@ -1,6 +1,7 @@
 import softwareSystems from './data/info/software-systems.js';
 import modules from './data/modules.js'
 import Student from './entities/student.js';
+import odontology from './data/med/odontology.js';
 
 const studentsInfoAndMathSoftwareSystems = [
   new Student('Apsas', 'Rekvestenis', softwareSystems.id),

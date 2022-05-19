@@ -1,4 +1,5 @@
 import { softwareSystemsModules } from './info/software-systems.js';
+import { odontologyModules } from './med/odontology.js';
 
 const modules = [
   ...softwareSystemsModules,

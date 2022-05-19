@@ -1,4 +1,5 @@
 import softwareSystems from "./info/software-systems.js";
+import odontology from "./med/odontology.js";
 
 const studyPrograms = [
   softwareSystems,
