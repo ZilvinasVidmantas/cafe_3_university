@@ -1,6 +1,6 @@
 import softwareSystems from './data/info/software-systems.js';
 import dataScience from './data/info/data-science.js';
-import modules from './data/modules.js'
+import modules from './data/modules.js';
 import Student from './entities/student.js';
 
 const studentsInfoAndMathSoftwareSystems = [
