@@ -1,7 +1,10 @@
+import Student from "./entities/student.js";
 import softwareSystems from "./data/info/software-systems.js";
 import businessAndLaw from "./data/economics-business/business-law.js";
 import modules from "./data/modules.js";
-import Student from "./entities/student.js";
+
+import softwareSystems from './data/info-math/software-systems.js';
+import Student from './entities/student.js';
 
 const studentsInfoAndMathSoftwareSystems = [
   new Student("Apsas", "Rekvestenis", softwareSystems.id),
