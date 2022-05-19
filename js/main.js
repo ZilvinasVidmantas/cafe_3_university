@@ -3,6 +3,7 @@ import softwareSystems from "./data/info-math/software-systems.js";
 import dataScience from './data/info-math/data-science.js';
 import mathematicsAndItsApplications from './data/info-math/mathematics-and-its-applications.js';
 import businessAndLaw from "./data/eco/business-law.js";
+import nanoChemistry from './data/chem/nano-chemistry.js';
 
 const studentsInfoAndMathSoftwareSystems = [
   new Student("Apsas", "Rekvestenis", softwareSystems.id),
@@ -32,8 +33,15 @@ const studentsInfoMathematicsAndItsApplications = [
   new Student('Caxeo', 'Pruvondun', mathematicsAndItsApplications.id),
   new Student('Hawan', 'Baintai', mathematicsAndItsApplications.id),
 ];
-
+const studentsChemNanoChemistry = [
+  new Student('Tomas', 'Ratkauskas', nanoChemistry.id),
+  new Student('Ponas', 'BMWas', nanoChemistry.id),
+  new Student('Opelis', 'Servisas', nanoChemistry.id),
+  new Student('Audi', 'Spaudi', nanoChemistry.id),
+  new Student('Voltas', 'Voldemortas', nanoChemistry.id),
+];
 console.table(studentsInfoAndMathSoftwareSystems);
 console.table(studentsInfoAndMathBusinessAndLaw);
 console.table(studentsInfoAndMathDataScience);
 console.table(studentsInfoMathematicsAndItsApplications);
+console.table(studentsChemNanoChemistry);
