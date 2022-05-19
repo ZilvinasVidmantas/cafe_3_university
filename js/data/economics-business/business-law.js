@@ -159,7 +159,7 @@ businessAndLaw.addSemester(6, businessAndLawSemester6);
 businessAndLaw.addSemester(7, businessAndLawSemester7);
 businessAndLaw.addSemester(8, businessAndLawSemester8);
 
-export const economicsAndBusinessmodules = [
+export const economicsAndBusinessModules = [
   businessAndLawSemester1module1,
   businessAndLawSemester1module2,
   businessAndLawSemester1module3,
