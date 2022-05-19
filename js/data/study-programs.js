@@ -1,7 +1,9 @@
 import softwareSystems from "./info/software-systems.js";
+import economicsFinance from "./eco/economics-finance.js";
 
 const studyPrograms = [
   softwareSystems,
+  economicsFinance,
   // studyProgram2,
   // studyProgram3,
   // studyProgram4,
