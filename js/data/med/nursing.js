@@ -5,7 +5,6 @@ import Module from './entities/module.js';
 
 export const faculties = [];
 export const studyPrograms = [];
-export const modules = [];
 
 const nursingProgram = new StudyProgram('Slauga', medicineFaculty.id);
 studyPrograms.push(nursingProgram);
@@ -99,7 +98,7 @@ nursingProgram.addSemester(6, nursingProgramSemester6);
 nursingProgram.addSemester(7, nursingProgramSemester7);
 nursingProgram.addSemester(8, nursingProgramSemester8);
 
-modules.push(
+export const softwareSystemsModules = [
   nursingProgramSemester1module1,
   nursingProgramSemester1module2,
   nursingProgramSemester1module3,
@@ -132,6 +131,6 @@ modules.push(
   nursingProgramSemester7module1,
   nursingProgramSemester8module1,
   nursingProgramSemester8module2
-);
+];
 
 export default nursingProgram;
