@@ -1,13 +1,11 @@
 import StudyProgram from '../../entities/study-program.js';
 import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
-import { informaticsFaculty } from '../faculties.js';
-
-export const informaticsSystemsModules = [];
+import { infoAndMathFaculty } from '../faculties.js';
 
 const informaticsSystems = new StudyProgram(
   'Informacinių sistemų inžinerija',
-  informaticsFaculty.id
+  infoAndMathFaculty.id
 );
 
 const informaticsSystemsSemester1 = new StudyProgramSemester();
@@ -109,7 +107,7 @@ informaticsSystems.addSemester(6, informaticsSystemsSemester6)
 informaticsSystems.addSemester(7, informaticsSystemsSemester7)
 informaticsSystems.addSemester(8, informaticsSystemsSemester8)
 
-informaticsSystemsModules.push(
+export const informaticsSystemsModules = [
   informaticsSystemsSemester1module1,
   informaticsSystemsSemester1module2,
   informaticsSystemsSemester1module3,
@@ -147,6 +145,6 @@ informaticsSystemsModules.push(
   informaticsSystemsSemester7module5,
   informaticsSystemsSemester8module1,
   informaticsSystemsSemester8module2
-)
+];
 
-export default informaticsSystems
+export default informaticsSystems;
