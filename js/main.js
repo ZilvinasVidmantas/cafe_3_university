@@ -1,5 +1,5 @@
 import softwareSystems from './data/info/software-systems.js';
-import softwareSystems from './data/medicine/medicine.js';
+import softwareSystems from './data/med/medicine.js';
 import modules from './data/modules.js'
 import Student from './entities/student.js';
 
