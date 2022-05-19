@@ -1,5 +1,4 @@
-import softwareSystems from './data/info/software-systems.js';
-import modules from './data/modules.js'
+import softwareSystems from './data/info-math/software-systems.js';
 import Student from './entities/student.js';
 
 const studentsInfoAndMathSoftwareSystems = [
@@ -9,5 +8,3 @@ const studentsInfoAndMathSoftwareSystems = [
   new Student('Frontas', 'Klijentauskas', softwareSystems.id),
   new Student('Kompiuterė', 'Komplailerytė', softwareSystems.id),
 ];
-
-
