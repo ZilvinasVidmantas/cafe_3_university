@@ -1,8 +1,9 @@
 import softwareSystems from "./info/software-systems.js";
+import nursingProgram from "./med/nursing.js";
 
 const studyPrograms = [
   softwareSystems,
-  // studyProgram2,
+  nursingProgram,
   // studyProgram3,
   // studyProgram4,
   // studyProgram5,
