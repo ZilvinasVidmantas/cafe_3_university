@@ -1,7 +1,7 @@
-import Faculty from './entities/faculty.js';
-import StudyProgram from './entities/study-program.js';
-import StudyProgramSemester from './entities/study-program-semester.js';
-import Module from './entities/module.js';
+import StudyProgram from '../../entities/study-program.js';
+import StudyProgramSemester from '../../entities/study-program-semester.js';
+import Module from '../../entities/module.js';
+import { medicineFaculty } from '../faculties.js';
 
 export const faculties = [];
 export const studyPrograms = [];
@@ -98,7 +98,7 @@ nursingProgram.addSemester(6, nursingProgramSemester6);
 nursingProgram.addSemester(7, nursingProgramSemester7);
 nursingProgram.addSemester(8, nursingProgramSemester8);
 
-export const softwareSystemsModules = [
+export const nursingProgramModules = [
   nursingProgramSemester1module1,
   nursingProgramSemester1module2,
   nursingProgramSemester1module3,
