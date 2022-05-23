@@ -3,7 +3,7 @@ import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
 import { economicsAndBusinessFaculty } from '../faculties.js';
 
-const economicsFinance = new StudyProgram("Ekonomika ir finansai" , economicsAndBusinessFaculty.id);
+const economicsFinance = new StudyProgram('Ekonomika ir finansai' , economicsAndBusinessFaculty.id);
 
 const economicsFinanceSemester1 = new StudyProgramSemester();
 const economicsFinanceSemester1module1 = new Module('Dalykinė anglų kalba (C1)', 5);
