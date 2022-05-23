@@ -3,10 +3,7 @@ import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
 import { medicineFaculty } from '../faculties.js';
 
-
-
 const occupationalTherapy = new StudyProgram('Ergoterapija', medicineFaculty.id);
-
 
 const occupationalTherapySemester1 = new StudyProgramSemester();
 const occupationalTherapySemester1module1 = new Module('Dalykinė anglų kalba C1', 5)
@@ -85,7 +82,6 @@ occupationalTherapySemester7.addModule(occupationalTherapySemester7module1.id);
 occupationalTherapySemester7.addModule(occupationalTherapySemester7module2.id);
 occupationalTherapySemester7.addModule(occupationalTherapySemester7module3.id);
 occupationalTherapySemester7.addModule(occupationalTherapySemester7module4.id);
-
 
 const occupationalTherapySemester8 = new StudyProgramSemester();
 const occupationalTherapySemester8module1 = new Module('Bakalauro baigiamasis darbas (kryptis: reabilitacija)', 15)
