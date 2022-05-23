@@ -1,4 +1,3 @@
-
 import Student from './entities/student.js';
 import softwareSystems from './data/info-math/software-systems.js';
 import dataScience from './data/info-math/data-science.js';
@@ -23,6 +22,7 @@ const studentsInfoAndMathBusinessAndLaw = [
   new Student('Lakunas', 'Kopustunas', businessAndLaw.id),
   new Student('Gintaras', 'Ziba', businessAndLaw.id),
 ];
+
 const studentsInfoAndMathDataScience = [
   new Student('Lina', 'Linaitė', dataScience.id),
   new Student('Asta', 'Astaitė', dataScience.id),
