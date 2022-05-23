@@ -5,7 +5,10 @@ import { economicsAndBusinessModules } from "./eco/business-law.js";
 import { nanoChemistryModules} from './chem/nano-chemistry.js';
 import { odontologyModules } from './med/odontology.js';
 import { biochemistryModules } from './chem/biochemistry.js';
+import { meteorologyAndHidrologyModules } from './chem/meteorology-hidrology.js';
+import { nursingProgramModules } from './med/nursing.js';
 import { informaticsSystemsModules } from './info-math/informatics-engineering.js';
+
 
 const modules = [
   ...softwareSystemsModules,
@@ -15,7 +18,9 @@ const modules = [
   ...nanoChemistryModules,
   ...odontologyModules,
   ...biochemistryModules,
-  ...informaticsSystemsModules
+  ...meteorologyAndHidrologyModules,
+  ...nursingProgramModules,
+  ...informaticsSystemsModules,
 ];
 
 export default modules;
