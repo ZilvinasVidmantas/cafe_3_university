@@ -1,17 +1,10 @@
-<<<<<<< HEAD
-import softwareSystems from './data/info/software-systems.js';
-import medicine from './data/med/medicine.js';
-import softwareSystems from './data/med/medicine.js';
-import modules from './data/modules.js'
 import Student from './entities/student.js';
-=======
-import Student from "./entities/student.js";
 import softwareSystems from "./data/info-math/software-systems.js";
 import dataScience from './data/info-math/data-science.js';
 import mathematicsAndItsApplications from './data/info-math/mathematics-and-its-applications.js';
 import businessAndLaw from "./data/eco/business-law.js";
 import nanoChemistry from './data/chem/nano-chemistry.js';
->>>>>>> master
+import medicine from './data/med/medicine.js';
 
 const studentsInfoAndMathSoftwareSystems = [
   new Student("Apsas", "Rekvestenis", softwareSystems.id),
@@ -20,18 +13,6 @@ const studentsInfoAndMathSoftwareSystems = [
   new Student("Frontas", "Klijentauskas", softwareSystems.id),
   new Student("Kompiuterė", "Komplailerytė", softwareSystems.id),
 ];
-<<<<<<< HEAD
-
-const studentsMedicine = [
-  new Student('Paulius', 'Kontauskas', medicine.id),
-  new Student('Petras', 'Ivanauskas', medicine.id),
-  new Student('Robertas', 'Pubsauskas', medicine.id),
-  new Student('Jonas', 'Romaitis', medicine.id),
-  new Student('Petraitis', 'Jonaitytis', medicine.id),
-];
-
-
-=======
 const studentsInfoAndMathBusinessAndLaw = [
   new Student("Jonas", "Jonaitelis", businessAndLaw.id),
   new Student("Lukas", "Liokaitis", businessAndLaw.id),
@@ -60,9 +41,17 @@ const studentsChemNanoChemistry = [
   new Student('Audi', 'Spaudi', nanoChemistry.id),
   new Student('Voltas', 'Voldemortas', nanoChemistry.id),
 ];
+const studentsMedicine = [
+  new Student('Paulius', 'Kontauskas', medicine.id),
+  new Student('Petras', 'Ivanauskas', medicine.id),
+  new Student('Robertas', 'Pubsauskas', medicine.id),
+  new Student('Jonas', 'Romaitis', medicine.id),
+  new Student('Petraitis', 'Jonaitytis', medicine.id),
+];
+
 console.table(studentsInfoAndMathSoftwareSystems);
 console.table(studentsInfoAndMathBusinessAndLaw);
 console.table(studentsInfoAndMathDataScience);
 console.table(studentsInfoMathematicsAndItsApplications);
 console.table(studentsChemNanoChemistry);
->>>>>>> master
+console.table(studentsMedicine)
