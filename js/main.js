@@ -6,6 +6,9 @@ import businessAndLaw from './data/eco/business-law.js';
 import nanoChemistry from './data/chem/nano-chemistry.js';
 import odontology from './data/med/odontology.js';
 import biochemistry from './data/chem/biochemistry.js';
+import meteorologyAndHidrology from './data/chem/meteorology-hidrology.js';
+import nursingProgram from './data/med/nursing.js';
+import informaticsSystems from './data/info-math/informatics-engineering.js';
 import occupationalTherapy from './data/med/occupational-therapy.js';
 
 const studentsInfoAndMathSoftwareSystems = [
@@ -22,7 +25,6 @@ const studentsInfoAndMathBusinessAndLaw = [
   new Student('Lakunas', 'Kopustunas', businessAndLaw.id),
   new Student('Gintaras', 'Ziba', businessAndLaw.id),
 ];
-
 const studentsInfoAndMathDataScience = [
   new Student('Lina', 'Linaitė', dataScience.id),
   new Student('Asta', 'Astaitė', dataScience.id),
@@ -58,6 +60,27 @@ const studentsChemBiochemistry = [
   new Student('Eliza', 'Kvakauskaitė', biochemistry.id),
   new Student('Ernestas', 'Nevermaidis', biochemistry.id),
 ];
+const studentsChemMeteorologyAndHidrology = [
+  new Student('Nemunas', 'Panemunis', meteorologyAndHidrology.id),
+  new Student('Ieva', 'Drebulaitė', meteorologyAndHidrology.id),
+  new Student('Zosė', 'Kalnienė', meteorologyAndHidrology.id),
+  new Student('Antosė', 'Draugytė', meteorologyAndHidrology.id),
+  new Student('Perkūnas', 'Plonulis', meteorologyAndHidrology.id),
+];
+const studentsInfoNursingProgram = [
+  new Student('Helga', 'Niursaitė', nursingProgram.id),
+  new Student('Denera', 'Bintytė', nursingProgram.id),
+  new Student('Florencija', 'Heterman', nursingProgram.id),
+  new Student('Liuteris', 'Solomonas', nursingProgram.id),
+  new Student('Voltas', 'Traidenis', nursingProgram.id),
+];
+const studentsInfoAndMathinformaticsSystems = [
+  new Student('Algirdas', 'A', informaticsSystems.id),
+  new Student('Saulius', 'S', informaticsSystems.id),
+  new Student('Tadas', 'T', informaticsSystems.id),
+  new Student('Rima', 'R', informaticsSystems.id),
+  new Student('Rūta', 'R', informaticsSystems.id),
+];
 const studentsOccupationalTherapy = [
   new Student('Antanas', 'Antanaitis', occupationalTherapy.id),
   new Student('Virgis', 'Virgilaitis', occupationalTherapy.id),
@@ -73,5 +96,7 @@ console.table(studentsInfoMathematicsAndItsApplications);
 console.table(studentsChemNanoChemistry);
 console.table(studentsOdontology);
 console.table(studentsChemBiochemistry);
+console.table(studentsChemMeteorologyAndHidrology);
+console.table(studentsInfoNursingProgram);
+console.table(studentsInfoAndMathinformaticsSystems);
 console.table(studentsOccupationalTherapy);
-
