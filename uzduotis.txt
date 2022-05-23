@@ -22,5 +22,3 @@ Atlikus kiekvieną numeriu pažymėta užduotį, padaryti commit'ą
 5. Faile 'js/data/study-programs.js' importuokite jūsų sukurtą studijų programą ir pridėkite ją prie masyvo <studyPrograms>
 
 6. Faile 'js/main.js' Sukurkite 5 savo studijų programos studentus
-
-
