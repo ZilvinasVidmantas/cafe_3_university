@@ -3,7 +3,6 @@ import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
 import { medicineFaculty } from '../faculties.js';
 
-
 const medicine = new StudyProgram('Programų sistemos', medicineFaculty.id);
 
 const medicineSemester1 = new StudyProgramSemester();
@@ -18,13 +17,12 @@ medicineSemester1.addModule(medicineSemester1module3.id);
 medicineSemester1.addModule(medicineSemester1module4.id);
 medicineSemester1.addModule(medicineSemester1module5.id);
 
-
 const medicineSemester2 = new StudyProgramSemester();
 const medicineSemester2module1 = new Module('Biochemija', 5);
 const medicineSemester2module2 = new Module('Psichologija, profesinio bendravimo pagrindai ir psichosomatika', 5);
 const medicineSemester2module3 = new Module('Laboratorinė medicina', 5);
 const medicineSemester2module4 = new Module('Žmogaus anatomija II/II', 5);
-const medicineSemester2module5 = new Module('OFiziologija I/II', 5);
+const medicineSemester2module5 = new Module('Fiziologija I/II', 5);
 const medicineSemester2module6 = new Module('Žmogaus histologija II/II', 5);
 medicineSemester2.addModule(medicineSemester2module1.id);
 medicineSemester2.addModule(medicineSemester2module2.id);

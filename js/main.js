@@ -10,6 +10,7 @@ import meteorologyAndHidrology from './data/chem/meteorology-hidrology.js';
 import nursingProgram from './data/med/nursing.js';
 import informaticsSystems from './data/info-math/informatics-engineering.js';
 import occupationalTherapy from './data/med/occupational-therapy.js';
+import pharmacy from './data/med/pharmacy.js';
 import medicine from './data/med/medicine.js';
 
 const studentsInfoAndMathSoftwareSystems = [
@@ -89,6 +90,13 @@ const studentsOccupationalTherapy = [
   new Student('Pijus', 'Pijauskas', occupationalTherapy.id),
   new Student('Vidas', 'Vidaitis', occupationalTherapy.id),
 ];
+const studentsMedPharmacy = [
+  new Student('Medikas', 'Medikaitis', pharmacy.id),
+  new Student('Švirkštas', 'Klizmauskas', pharmacy.id),
+  new Student('Lašelinė', 'Adatienė', pharmacy.id),
+  new Student('Kateteris', 'Lancetauskas', pharmacy.id),
+  new Student('Analizė', 'Kraujauskė', pharmacy.id),
+];
 const studentsMedicine = [
   new Student('Paulius', 'Kontauskas', medicine.id),
   new Student('Petras', 'Ivanauskas', medicine.id),
@@ -108,4 +116,5 @@ console.table(studentsChemMeteorologyAndHidrology);
 console.table(studentsInfoNursingProgram);
 console.table(studentsInfoAndMathinformaticsSystems);
 console.table(studentsOccupationalTherapy);
+console.table(studentsMedPharmacy);
 console.table(studentsMedicine);
