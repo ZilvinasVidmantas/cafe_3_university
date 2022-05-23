@@ -3,13 +3,15 @@ import { mathematicsAndItsApplicationsModules } from './info-math/mathematics-an
 import { dataScienceModules } from './info-math/data-science.js';
 import { economicsAndBusinessModules } from "./eco/business-law.js";
 import { nanoChemistryModules} from './chem/nano-chemistry.js';
+import { odontologyModules } from './med/odontology.js';
 
-  const modules = [
-    ...softwareSystemsModules,
-    ...dataScienceModules,
-    ...economicsAndBusinessModules,
-    ...mathematicsAndItsApplicationsModules,
-    ...nanoChemistryModules,
+const modules = [
+  ...softwareSystemsModules,
+  ...mathematicsAndItsApplicationsModules,
+  ...dataScienceModules,
+  ...economicsAndBusinessModules,
+  ...nanoChemistryModules,
+  ...odontologyModules,
 ];
 
 export default modules;
