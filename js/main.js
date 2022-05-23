@@ -1,4 +1,3 @@
-
 import Student from './entities/student.js';
 import softwareSystems from './data/info-math/software-systems.js';
 import dataScience from './data/info-math/data-science.js';
@@ -6,8 +5,8 @@ import mathematicsAndItsApplications from './data/info-math/mathematics-and-its-
 import businessAndLaw from './data/eco/business-law.js';
 import nanoChemistry from './data/chem/nano-chemistry.js';
 import odontology from './data/med/odontology.js';
-import occupationalTherapy from './data/med/occupational-therapy.js';
 import biochemistry from './data/chem/biochemistry.js';
+import occupationalTherapy from './data/med/occupational-therapy.js';
 
 const studentsInfoAndMathSoftwareSystems = [
   new Student('Apsas', 'Rekvestenis', softwareSystems.id),
@@ -23,6 +22,7 @@ const studentsInfoAndMathBusinessAndLaw = [
   new Student('Lakunas', 'Kopustunas', businessAndLaw.id),
   new Student('Gintaras', 'Ziba', businessAndLaw.id),
 ];
+
 const studentsInfoAndMathDataScience = [
   new Student('Lina', 'Linaitė', dataScience.id),
   new Student('Asta', 'Astaitė', dataScience.id),
