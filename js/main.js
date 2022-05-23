@@ -1,5 +1,5 @@
 import Student from './entities/student.js';
-import softwareSystems from "./data/info-math/software-systems.js";
+import softwareSystems from './data/info-math/software-systems.js';
 import businessAndLaw from './data/eco/business-law.js';
 import dataScience from './data/info-math/data-science.js';
 import mathematicsAndItsApplications from './data/info-math/mathematics-and-its-applications.js';
@@ -13,6 +13,8 @@ import occupationalTherapy from './data/med/occupational-therapy.js';
 import pharmacy from './data/med/pharmacy.js';
 import medicine from './data/med/medicine.js';
 import philosophy from './data/philo/philosophy.js';
+import economicsFinance from './data/eco/economics-finance.js';
+
 
 const studentsInfoAndMathSoftwareSystems = [
   new Student('Apsas', 'Rekvestenis', softwareSystems.id),
@@ -112,6 +114,13 @@ const philosophyStudents = [
   new Student('Gertrūda', 'Pavardenytė', philosophy.id),
   new Student('Vyšnia', 'Bordiūrytė', philosophy.id),
 ];
+const studentsEconomicsFinance = [
+  new Student('Kazimira Danutė', 'Prunskienė', economicsFinance.id),
+  new Student('Algirdas Mykolas', 'Brazauskas', economicsFinance.id),
+  new Student('Česlovas', 'Juršėnas', economicsFinance.id),
+  new Student('Rolandas', 'Paksas', economicsFinance.id),
+  new Student('Irena', 'Degutienė', economicsFinance.id),
+];
 
 console.table(studentsInfoAndMathSoftwareSystems);
 console.table(studentsInfoAndMathBusinessAndLaw);
@@ -127,3 +136,4 @@ console.table(studentsOccupationalTherapy);
 console.table(studentsMedPharmacy);
 console.table(studentsMedicine);
 console.table(philosophyStudents);
+console.table(studentsEconomicsFinance);
