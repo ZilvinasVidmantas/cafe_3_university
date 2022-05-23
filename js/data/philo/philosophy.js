@@ -3,9 +3,7 @@ import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
 import { philosophyFaculty } from '../faculties.js';
 
-
-
-const philosophy = new StudyProgram('Filosofija', philosophyFaculty.id)
+const philosophy = new StudyProgram('Filosofija', philosophyFaculty.id);
 
 const philosophySemester1 = new StudyProgramSemester();
 const philosophySemester1module1 = new Module('Filosofijos įvadas', 5);
@@ -152,6 +150,6 @@ export const philosophyModules = [
   philosophySemester8module3,
   philosophySemester8module4,
   philosophySemester8module5
-]
+];
 
 export default philosophy;
