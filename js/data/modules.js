@@ -8,7 +8,7 @@ import { biochemistryModules } from './chem/biochemistry.js';
 import { meteorologyAndHidrologyModules } from './chem/meteorology-hidrology.js';
 import { nursingProgramModules } from './med/nursing.js';
 import { informaticsSystemsModules } from './info-math/informatics-engineering.js';
-
+import { occupationalTherapyModules } from './med/occupational-therapy.js';
 
 const modules = [
   ...softwareSystemsModules,
@@ -21,6 +21,7 @@ const modules = [
   ...meteorologyAndHidrologyModules,
   ...nursingProgramModules,
   ...informaticsSystemsModules,
+  ...occupationalTherapyModules,
 ];
 
 export default modules;
