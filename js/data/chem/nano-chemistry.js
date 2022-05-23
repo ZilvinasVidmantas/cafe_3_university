@@ -1,9 +1,9 @@
 import StudyProgram from '../../entities/study-program.js';
 import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
-import { chemistryAndGeoScienceFaculty } from '../faculties.js';
+import { chemistryAndGeoSciencesFaculty } from '../faculties.js';
 
-const nanoChemistry = new StudyProgram('Nanomedžiagų chemija', chemistryAndGeoScienceFaculty.id);
+const nanoChemistry = new StudyProgram('Nanomedžiagų chemija', chemistryAndGeoSciencesFaculty.id);
 
 const nanoChemistrySemester1 = new StudyProgramSemester();
 const nanoChemistrySemester1module1 = new Module('Akademinė ir mokslinė anglų kalba C1', 5);
