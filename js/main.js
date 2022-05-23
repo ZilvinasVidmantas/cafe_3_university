@@ -19,4 +19,7 @@ const studentsManagementEnglis = [
   new Student('Julija', 'Julienė', managementEnglish.id),
 ]
 
+console.log(studentsManagementEnglis);
+
+
 

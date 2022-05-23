@@ -3,7 +3,6 @@ import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
 import { ecoFaculty } from '../faculties.js';
 
-
 const managementEnglish = new StudyProgram('Vadyba anglų k.', ecoFaculty.id);
 
 const managementEnglishSemester1 = new StudyProgramSemester();
