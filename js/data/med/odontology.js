@@ -3,15 +3,7 @@ import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
 import { medicineFaculty } from './data/faculties.js';
 
-export const faculties = [];
-export const studyPrograms = [];
-export const modules = [];
-
-const medicineFaculty = new Faculty('Odontologijos fakultetas');
-faculties.push(medicineFaculty);
-
 const odontology = new StudyProgram('Odontologija', medicineFaculty.id);
-studyPrograms.push(odontology);
 
 const odontologySemester1 = new StudyProgramSemester();
 const odontologySemester1Module1 = new Module('Biochemija', 5);
@@ -115,16 +107,16 @@ odontologySemester10.addModule(odontologySemester10Module1.id);
 odontologySemester10.addModule(odontologySemester10Module2.id);
 odontologySemester10.addModule(odontologySemester10Module3.id);
 
-odontology.addSemester(1, odontologySemester1)
-odontology.addSemester(2, odontologySemester2)
-odontology.addSemester(3, odontologySemester3)
-odontology.addSemester(4, odontologySemester4)
-odontology.addSemester(5, odontologySemester5)
-odontology.addSemester(6, odontologySemester6)
-odontology.addSemester(7, odontologySemester7)
-odontology.addSemester(8, odontologySemester8)
-odontology.addSemester(9, odontologySemester9)
-odontology.addSemester(10, odontologySemester10)
+odontology.addSemester(1, odontologySemester1);
+odontology.addSemester(2, odontologySemester2);
+odontology.addSemester(3, odontologySemester3);
+odontology.addSemester(4, odontologySemester4);
+odontology.addSemester(5, odontologySemester5);
+odontology.addSemester(6, odontologySemester6);
+odontology.addSemester(7, odontologySemester7);
+odontology.addSemester(8, odontologySemester8);
+odontology.addSemester(9, odontologySemester9);
+odontology.addSemester(10, odontologySemester10);
 
 export const odontologyModules = [
   odontologySemester1Module1,
