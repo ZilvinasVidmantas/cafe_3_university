@@ -1,9 +1,9 @@
 import StudyProgram from './entities/study-program.js';
 import StudyProgramSemester from './entities/study-program-semester.js';
 import Module from './entities/module.js';
-import { medicalFaculty } from '../faculties.js';
+import { medicineFaculty } from '../faculties.js';
 
-const pharmacy = new StudyProgram('Farmacija', medicalFaculty.id);
+const pharmacy = new StudyProgram('Farmacija', medicineFaculty.id);
 
 const pharmacySemester1 = new StudyProgramSemester();
 const pharmacySemester1module1 = new Module('Augalų ir gyvūnų biologijos pagrindai',	5);
@@ -124,7 +124,7 @@ pharmacy.addSemester(9, pharmacySemester9);
 pharmacy.addSemester(10, pharmacySemester10);
 
 
-modules.push(
+export const pharmacyProgramModules = [
   pharmacySemester1module1,
   pharmacySemester1module2,
   pharmacySemester1module3,
@@ -168,6 +168,6 @@ modules.push(
   pharmacySemester10module1,
   pharmacySemester10module2,  
   pharmacySemester10module3,
-);
+];
 
 export default pharmacy;
