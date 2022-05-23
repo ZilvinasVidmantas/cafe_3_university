@@ -6,6 +6,7 @@ import nanoChemistry from './chem/nano-chemistry.js';
 import odontology from './med/odontology.js';
 import biochemistry from './chem/biochemistry.js';
 import meteorologyAndHidrology from './chem/meteorology-hidrology.js';
+import nursingProgram from "./med/nursing.js";
 
 const studyPrograms = [
   softwareSystems,
@@ -16,6 +17,7 @@ const studyPrograms = [
   odontology,
   biochemistry,
   meteorologyAndHidrology,
+  nursingProgram,
 ];
 
 export default studyPrograms;
