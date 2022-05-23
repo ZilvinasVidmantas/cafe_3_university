@@ -1,8 +1,9 @@
 import { softwareSystemsModules } from './info/software-systems.js';
+import { biochemistryModules } from './info/biochemistry.js';
 
 const modules = [
   ...softwareSystemsModules,
-  // ...softwareSystemsModules,
+  ...biochemistryModules,
   // ...lawModules,
   // ...biologyModules,
   // ...chemistryModules,
