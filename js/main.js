@@ -108,4 +108,4 @@ console.table(studentsChemMeteorologyAndHidrology);
 console.table(studentsInfoNursingProgram);
 console.table(studentsInfoAndMathinformaticsSystems);
 console.table(studentsOccupationalTherapy);
-console.table(studentsMedicine)
+console.table(studentsMedicine);
