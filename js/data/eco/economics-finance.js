@@ -1,9 +1,9 @@
 import StudyProgram from '../../entities/study-program.js';
 import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
-import { economicsFaculty } from '../faculties.js';
+import { economicsAndBusinessFaculty } from '../faculties.js';
 
-const economicsFinance = new StudyProgram("Ekonomika ir finansai" , economicsFaculty.id)
+const economicsFinance = new StudyProgram("Ekonomika ir finansai" , economicsAndBusinessFaculty.id)
 
 const economicsFinanceSemester1 = new StudyProgramSemester();
 const economicsFinanceSemester1module1 = new Module('Dalykinė anglų kalba (C1)', 5)
