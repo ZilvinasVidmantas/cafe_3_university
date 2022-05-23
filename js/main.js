@@ -12,6 +12,7 @@ import informaticsSystems from './data/info-math/informatics-engineering.js';
 import occupationalTherapy from './data/med/occupational-therapy.js';
 import pharmacy from './data/med/pharmacy.js';
 import medicine from './data/med/medicine.js';
+import philosophy from './data/philo/philosophy.js';
 
 const studentsInfoAndMathSoftwareSystems = [
   new Student('Apsas', 'Rekvestenis', softwareSystems.id),
@@ -104,6 +105,13 @@ const studentsMedicine = [
   new Student('Jonas', 'Romaitis', medicine.id),
   new Student('Petraitis', 'Jonaitytis', medicine.id),
 ];
+const philosophyStudents = [
+  new Student('Antanas', 'Benzinas', philosophy.id),
+  new Student('Betonas', 'Kietas', philosophy.id),
+  new Student('Tomas', 'Tomauskas', philosophy.id),
+  new Student('Gertrūda', 'Pavardenytė', philosophy.id),
+  new Student('Vyšnia', 'Bordiūrytė', philosophy.id),
+];
 
 console.table(studentsInfoAndMathSoftwareSystems);
 console.table(studentsInfoAndMathBusinessAndLaw);
@@ -118,3 +126,4 @@ console.table(studentsInfoAndMathinformaticsSystems);
 console.table(studentsOccupationalTherapy);
 console.table(studentsMedPharmacy);
 console.table(studentsMedicine);
+console.table(philosophyStudents);
