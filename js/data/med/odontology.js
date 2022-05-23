@@ -1,16 +1,16 @@
-import Faculty from './entities/faculty.js';
-import StudyProgram from './entities/study-program.js';
-import StudyProgramSemester from './entities/study-program-semester.js';
-import Module from './entities/module.js';
+import StudyProgram from '../../entities/study-program.js';
+import StudyProgramSemester from '../../entities/study-program-semester.js';
+import Module from '../../entities/module.js';
+import { medicineFaculty } from './data/faculties.js';
 
 export const faculties = [];
 export const studyPrograms = [];
 export const modules = [];
 
-const odontologyFaculty = new Faculty('Odontologijos fakultetas');
-faculties.push(odontologyFaculty);
+const medicineFaculty = new Faculty('Odontologijos fakultetas');
+faculties.push(medicineFaculty);
 
-const odontology = new StudyProgram('Odontologija', odontologyFaculty.id);
+const odontology = new StudyProgram('Odontologija', medicineFaculty.id);
 studyPrograms.push(odontology);
 
 const odontologySemester1 = new StudyProgramSemester();
