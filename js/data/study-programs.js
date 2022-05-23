@@ -5,7 +5,13 @@ import businessAndLaw from './eco/business-law.js';
 import nanoChemistry from './chem/nano-chemistry.js';
 import odontology from './med/odontology.js';
 import biochemistry from './chem/biochemistry.js';
+<<<<<<< HEAD
 import chemistry from './chem/chemistry.js';
+=======
+import meteorologyAndHidrology from './chem/meteorology-hidrology.js';
+import nursingProgram from './med/nursing.js';
+import informaticsSystems from "./info-math/informatics-engineering.js";
+>>>>>>> master
 
 const studyPrograms = [
   softwareSystems,
@@ -15,7 +21,13 @@ const studyPrograms = [
   nanoChemistry,
   odontology,
   biochemistry,
+<<<<<<< HEAD
   chemistry,
+=======
+  meteorologyAndHidrology,
+  nursingProgram,
+  informaticsSystems,
+>>>>>>> master
 ];
 
 export default studyPrograms;
