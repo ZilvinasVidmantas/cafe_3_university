@@ -5,6 +5,7 @@ import businessAndLaw from './eco/business-law.js';
 import nanoChemistry from './chem/nano-chemistry.js';
 import odontology from './med/odontology.js';
 import biochemistry from './chem/biochemistry.js';
+import meteorologyAndHidrology from './chem/meteorology-hidrology.js';
 
 const studyPrograms = [
   softwareSystems,
@@ -14,6 +15,7 @@ const studyPrograms = [
   nanoChemistry,
   odontology,
   biochemistry,
+  meteorologyAndHidrology,
 ];
 
 export default studyPrograms;
