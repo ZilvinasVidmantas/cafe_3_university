@@ -6,8 +6,8 @@ import mathematicsAndItsApplications from './data/info-math/mathematics-and-its-
 import businessAndLaw from './data/eco/business-law.js';
 import nanoChemistry from './data/chem/nano-chemistry.js';
 import odontology from './data/med/odontology.js';
-import occupationalTherapy from './data/med/occupational-therapy.js';
 import biochemistry from './data/chem/biochemistry.js';
+import occupationalTherapy from './data/med/occupational-therapy.js';
 
 const studentsInfoAndMathSoftwareSystems = [
   new Student('Apsas', 'Rekvestenis', softwareSystems.id),
