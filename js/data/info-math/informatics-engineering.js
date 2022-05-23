@@ -147,4 +147,8 @@ export const informaticsSystemsModules = [
   informaticsSystemsSemester8module2
 ];
 
+<<<<<<< Updated upstream
 export default informaticsSystems;
+=======
+export default informaticsSystems;
+>>>>>>> Stashed changes
