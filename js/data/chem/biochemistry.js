@@ -1,9 +1,9 @@
 import StudyProgram from '../../entities/study-program.js';
 import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
-import { chemistryAndGeosciencesFaculty } from '../faculties.js';
+import { chemistryAndGeoScienceFaculty } from '../faculties.js';
 
-const biochemistry = new StudyProgram('Biochemija', chemistryAndGeosciencesFaculty.id);
+const biochemistry = new StudyProgram('Biochemija', chemistryAndGeoScienceFaculty.id);
 
 const biochemistrySemester1 = new StudyProgramSemester();
 const biochemistrySemester1module1 = new Module('Akademinė ir mokslinė anglų kalba C1', 5)

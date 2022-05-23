@@ -4,6 +4,7 @@ import dataScience from './data/info-math/data-science.js';
 import mathematicsAndItsApplications from './data/info-math/mathematics-and-its-applications.js';
 import businessAndLaw from "./data/eco/business-law.js";
 import nanoChemistry from './data/chem/nano-chemistry.js';
+import odontology from './data/med/odontology.js';
 import biochemistry from './data/chem/biochemistry.js';
 
 const studentsInfoAndMathSoftwareSystems = [
@@ -41,6 +42,13 @@ const studentsChemNanoChemistry = [
   new Student('Audi', 'Spaudi', nanoChemistry.id),
   new Student('Voltas', 'Voldemortas', nanoChemistry.id),
 ];
+const studentsOdontology = [
+  new Student('Hari', 'Krisna', odontology.id),
+  new Student('Maiklas', 'Dziordonas', odontology.id),
+  new Student('Vardenis','Pavardenis', odontology.id),
+  new Student('Agrastas', 'Kaspinuotis', odontology.id),
+  new Student('Jageris', 'Maisteris', odontology.id),
+];
 const studentsChemBiochemistry = [
   new Student('Lina', 'Lentautaitė', biochemistry.id),
   new Student('Jurgis', 'Jurgauskas', biochemistry.id),
@@ -54,4 +62,5 @@ console.table(studentsInfoAndMathBusinessAndLaw);
 console.table(studentsInfoAndMathDataScience);
 console.table(studentsInfoMathematicsAndItsApplications);
 console.table(studentsChemNanoChemistry);
+console.table(studentsOdontology);
 console.table(studentsChemBiochemistry);

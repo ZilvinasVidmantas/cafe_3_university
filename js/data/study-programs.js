@@ -3,15 +3,17 @@ import mathematicsAndItsApplications from "./info-math/mathematics-and-its-appli
 import dataScience from "./info-math/data-science.js";
 import businessAndLaw from "./eco/business-law.js";
 import nanoChemistry from "./chem/nano-chemistry.js";
-import biochemistry from "./info/biochemistry.js";
+import odontology from "./med/odontology.js";
+import biochemistry from "./chem/biochemistry.js";
 
-  const studyPrograms = [
-    softwareSystems,
-    mathematicsAndItsApplications,
-    dataScience,
-    businessAndLaw,
-    nanoChemistry,
-    biochemistry,
+const studyPrograms = [
+  softwareSystems,
+  mathematicsAndItsApplications,
+  dataScience,
+  businessAndLaw,
+  nanoChemistry,
+  odontology,
+  biochemistry,
 ];
 
 export default studyPrograms;
