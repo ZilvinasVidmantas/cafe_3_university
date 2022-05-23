@@ -8,6 +8,8 @@ import odontology from './data/med/odontology.js';
 import biochemistry from './data/chem/biochemistry.js';
 import meteorologyAndHidrology from './data/chem/meteorology-hidrology.js';
 import nursingProgram from './data/med/nursing.js';
+import informaticsSystems from './data/info-math/informatics-engineering.js';
+import occupationalTherapy from './data/med/occupational-therapy.js';
 import medicine from './data/med/medicine.js';
 
 const studentsInfoAndMathSoftwareSystems = [
@@ -73,6 +75,20 @@ const studentsInfoNursingProgram = [
   new Student('Liuteris', 'Solomonas', nursingProgram.id),
   new Student('Voltas', 'Traidenis', nursingProgram.id),
 ];
+const studentsInfoAndMathinformaticsSystems = [
+  new Student('Algirdas', 'A', informaticsSystems.id),
+  new Student('Saulius', 'S', informaticsSystems.id),
+  new Student('Tadas', 'T', informaticsSystems.id),
+  new Student('Rima', 'R', informaticsSystems.id),
+  new Student('Rūta', 'R', informaticsSystems.id),
+];
+const studentsOccupationalTherapy = [
+  new Student('Antanas', 'Antanaitis', occupationalTherapy.id),
+  new Student('Virgis', 'Virgilaitis', occupationalTherapy.id),
+  new Student('Jonas', 'Jonaitis', occupationalTherapy.id),
+  new Student('Pijus', 'Pijauskas', occupationalTherapy.id),
+  new Student('Vidas', 'Vidaitis', occupationalTherapy.id),
+];
 const studentsMedicine = [
   new Student('Paulius', 'Kontauskas', medicine.id),
   new Student('Petras', 'Ivanauskas', medicine.id),
@@ -90,4 +106,6 @@ console.table(studentsOdontology);
 console.table(studentsChemBiochemistry);
 console.table(studentsChemMeteorologyAndHidrology);
 console.table(studentsInfoNursingProgram);
+console.table(studentsInfoAndMathinformaticsSystems);
+console.table(studentsOccupationalTherapy);
 console.table(studentsMedicine)
