@@ -14,8 +14,8 @@ const modules = [
   ...economicsAndBusinessModules,
   ...nanoChemistryModules,
   ...odontologyModules,
-  ...occupationalTherapy
   ...biochemistryModules,
+  ...occupationalTherapy
 ];
 
 export default modules;
