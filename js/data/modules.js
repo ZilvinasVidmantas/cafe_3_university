@@ -5,6 +5,7 @@ import { economicsAndBusinessModules } from './eco/business-law.js';
 import { nanoChemistryModules } from './chem/nano-chemistry.js';
 import { odontologyModules } from './med/odontology.js';
 import { biochemistryModules } from './chem/biochemistry.js';
+import { chemistryModules } from './chem/chemistry.js';
 
 const modules = [
   ...softwareSystemsModules,
@@ -14,6 +15,7 @@ const modules = [
   ...nanoChemistryModules,
   ...odontologyModules,
   ...biochemistryModules,
+  ...chemistryModules,
 ];
 
 export default modules;
