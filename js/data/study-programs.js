@@ -7,6 +7,7 @@ import odontology from './med/odontology.js';
 import biochemistry from './chem/biochemistry.js';
 import meteorologyAndHidrology from './chem/meteorology-hidrology.js';
 import nursingProgram from './med/nursing.js';
+import informaticsSystems from './info-math/informatics-engineering.js';
 import pharmacy from './med/pharmacy.js';
 
 const studyPrograms = [
@@ -19,6 +20,7 @@ const studyPrograms = [
   biochemistry,
   meteorologyAndHidrology,
   nursingProgram,
+  informaticsSystems,
   pharmacy,
 ];
 

@@ -1,5 +1,4 @@
 import Student from './entities/student.js';
-import softwareSystems from './data/info/software-systems.js';
 import softwareSystems from './data/info-math/software-systems.js';
 import dataScience from './data/info-math/data-science.js';
 import mathematicsAndItsApplications from './data/info-math/mathematics-and-its-applications.js';
@@ -10,7 +9,6 @@ import biochemistry from './data/chem/biochemistry.js';
 import meteorologyAndHidrology from './data/chem/meteorology-hidrology.js';
 import nursingProgram from './data/med/nursing.js';
 import pharmacy from './data/med/pharmacy.js';
-
 
 const studentsInfoAndMathSoftwareSystems = [
   new Student('Apsas', 'Rekvestenis', softwareSystems.id),
@@ -75,7 +73,6 @@ const studentsInfoNursingProgram = [
   new Student('Liuteris', 'Solomonas', nursingProgram.id),
   new Student('Voltas', 'Traidenis', nursingProgram.id),
 ];
-
 const studentsMedPharmacy = [
   new Student('Medikas', 'Medikaitis', pharmacy.id),
   new Student('Švirkštas', 'Klizmauskas', pharmacy.id),
@@ -93,4 +90,4 @@ console.table(studentsOdontology);
 console.table(studentsChemBiochemistry);
 console.table(studentsChemMeteorologyAndHidrology);
 console.table(studentsInfoNursingProgram);
-console.table(studentsPharmacy);
+console.table(studentsMedPharmacy);

@@ -20,11 +20,11 @@ pharmacySemester1.addModule(pharmacySemester1module5.id);
 pharmacySemester1.addModule(pharmacySemester1module6.id);
 
 const pharmacySemester2 = new StudyProgramSemester();
-const pharmacySemester2module1 = new Module('Žmogaus fiziologijos pagrindai',	5)
-const pharmacySemester2module2 = new Module('Biochemijos pagrindai I/II d.', 5)
-const pharmacySemester2module3 = new Module('Dalykinė anglų kalba C1', 5)
-const pharmacySemester2module4 = new Module('Fizikinės chemijos pagrindai',	5)
-const pharmacySemester2module5 = new Module('Organinės chemijos pagrindai I/II d.',	5)
+const pharmacySemester2module1 = new Module('Žmogaus fiziologijos pagrindai',	5);
+const pharmacySemester2module2 = new Module('Biochemijos pagrindai I/II d.', 5);
+const pharmacySemester2module3 = new Module('Dalykinė anglų kalba C1', 5);
+const pharmacySemester2module4 = new Module('Fizikinės chemijos pagrindai',	5);
+const pharmacySemester2module5 = new Module('Organinės chemijos pagrindai I/II d.',	5);
 pharmacySemester2.addModule(pharmacySemester2module1.id);
 pharmacySemester2.addModule(pharmacySemester2module2.id);
 pharmacySemester2.addModule(pharmacySemester2module3.id);
@@ -68,11 +68,11 @@ pharmacySemester5.addModule(pharmacySemester5module4.id);
 pharmacySemester5.addModule(pharmacySemester5module5.id);
 
 const pharmacySemester6 = new StudyProgramSemester();
-const pharmacySemester6module1 = new Module('Farmacinė chemija II/II d.',	5)
-const pharmacySemester6module2 = new Module('Farmakologija II/II d.', 10)
-const pharmacySemester6module3 = new Module('Įrodymais pagrįsta ir papildoma medicina', 10)
-const pharmacySemester6module4 = new Module('Klinikinės medicinos pagrindai II/II d.',	5)
-const pharmacySemester6module5 = new Module('Mokslinių darbų rengimo metodologija ir statistinis modeliavimas',	5)
+const pharmacySemester6module1 = new Module('Farmacinė chemija II/II d.',	5);
+const pharmacySemester6module2 = new Module('Farmakologija II/II d.', 10);
+const pharmacySemester6module3 = new Module('Įrodymais pagrįsta ir papildoma medicina', 10);
+const pharmacySemester6module4 = new Module('Klinikinės medicinos pagrindai II/II d.',	5);
+const pharmacySemester6module5 = new Module('Mokslinių darbų rengimo metodologija ir statistinis modeliavimas',	5);
 pharmacySemester6.addModule(pharmacySemester6module1.id);
 pharmacySemester6.addModule(pharmacySemester6module2.id);
 pharmacySemester6.addModule(pharmacySemester6module3.id);
@@ -111,7 +111,6 @@ pharmacySemester10.addModule(pharmacySemester10module1.id);
 pharmacySemester10.addModule(pharmacySemester10module2.id);
 pharmacySemester10.addModule(pharmacySemester10module3.id);
 
-
 pharmacy.addSemester(1, pharmacySemester1);
 pharmacy.addSemester(2, pharmacySemester2);
 pharmacy.addSemester(3, pharmacySemester3);
@@ -123,8 +122,7 @@ pharmacy.addSemester(8, pharmacySemester8);
 pharmacy.addSemester(9, pharmacySemester9);
 pharmacy.addSemester(10, pharmacySemester10);
 
-
-export const pharmacyProgramModules = [
+export const pharmacyModules = [
   pharmacySemester1module1,
   pharmacySemester1module2,
   pharmacySemester1module3,
