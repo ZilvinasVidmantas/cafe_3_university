@@ -1,6 +1,6 @@
-import StudyProgram from './entities/study-program.js';
-import StudyProgramSemester from './entities/study-program-semester.js';
-import Module from './entities/module.js';
+import StudyProgram from '../../entities/study-program.js';
+import StudyProgramSemester from '../../entities/study-program-semester.js';
+import Module from '../../entities/module.js';
 import { medicineFaculty } from '../faculties.js';
 
 const pharmacy = new StudyProgram('Farmacija', medicineFaculty.id);
