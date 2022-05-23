@@ -6,7 +6,7 @@ import nanoChemistry from './chem/nano-chemistry.js';
 import odontology from './med/odontology.js';
 import biochemistry from './chem/biochemistry.js';
 import meteorologyAndHidrology from './chem/meteorology-hidrology.js';
-import nursingProgram from "./med/nursing.js";
+import nursingProgram from './med/nursing.js';
 import medicine from "./med/medicine.js";
 
 const studyPrograms = [
