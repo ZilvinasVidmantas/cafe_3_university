@@ -15,8 +15,8 @@ const studyPrograms = [
   businessAndLaw,
   nanoChemistry,
   odontology,
-  occupationalTherapy
   biochemistry,
+  occupationalTherapy
 ];
 
 export default studyPrograms;
