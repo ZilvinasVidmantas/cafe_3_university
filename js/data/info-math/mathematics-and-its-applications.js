@@ -18,11 +18,11 @@ mathematicsAndItsApplicationsSemester1.addModule(mathematicsAndItsApplicationsSe
 mathematicsAndItsApplicationsSemester1.addModule(mathematicsAndItsApplicationsSemester1module5.id);
 
 const mathematicsAndItsApplicationsSemester2 = new StudyProgramSemester();
-const mathematicsAndItsApplicationsSemester2module1 = new Module('Akademinė ir mokslinė anglų kalba C1 II/II d.', 5)
-const mathematicsAndItsApplicationsSemester2module2 = new Module('Algebra I/II d.', 5)
-const mathematicsAndItsApplicationsSemester2module3 = new Module('Informatika II/II d.', 5)
-const mathematicsAndItsApplicationsSemester2module4 = new Module('Matematinė analizė II/III d.', 10)
-const mathematicsAndItsApplicationsSemester2module5 = new Module('Bendrųjų universitetinių studijų dalykai', 5)
+const mathematicsAndItsApplicationsSemester2module1 = new Module('Akademinė ir mokslinė anglų kalba C1 II/II d.', 5);
+const mathematicsAndItsApplicationsSemester2module2 = new Module('Algebra I/II d.', 5);
+const mathematicsAndItsApplicationsSemester2module3 = new Module('Informatika II/II d.', 5);
+const mathematicsAndItsApplicationsSemester2module4 = new Module('Matematinė analizė II/III d.', 10);
+const mathematicsAndItsApplicationsSemester2module5 = new Module('Bendrųjų universitetinių studijų dalykai', 5);
 mathematicsAndItsApplicationsSemester2.addModule(mathematicsAndItsApplicationsSemester2module1.id);
 mathematicsAndItsApplicationsSemester2.addModule(mathematicsAndItsApplicationsSemester2module2.id);
 mathematicsAndItsApplicationsSemester2.addModule(mathematicsAndItsApplicationsSemester2module3.id);
@@ -30,11 +30,11 @@ mathematicsAndItsApplicationsSemester2.addModule(mathematicsAndItsApplicationsSe
 mathematicsAndItsApplicationsSemester2.addModule(mathematicsAndItsApplicationsSemester2module5.id);
 
 const mathematicsAndItsApplicationsSemester3 = new StudyProgramSemester();
-const mathematicsAndItsApplicationsSemester3module1 = new Module('Algebra II/II d.', 5)
-const mathematicsAndItsApplicationsSemester3module2 = new Module('Diferencialinės lygtys I/II d.', 5)
-const mathematicsAndItsApplicationsSemester3module3 = new Module('Geometrija', 5)
-const mathematicsAndItsApplicationsSemester3module4 = new Module('Kombinatorika ir grafų teorija', 5)
-const mathematicsAndItsApplicationsSemester3module5 = new Module('Matematinė analizė III/III d.', 10)
+const mathematicsAndItsApplicationsSemester3module1 = new Module('Algebra II/II d.', 5);
+const mathematicsAndItsApplicationsSemester3module2 = new Module('Diferencialinės lygtys I/II d.', 5);
+const mathematicsAndItsApplicationsSemester3module3 = new Module('Geometrija', 5);
+const mathematicsAndItsApplicationsSemester3module4 = new Module('Kombinatorika ir grafų teorija', 5);
+const mathematicsAndItsApplicationsSemester3module5 = new Module('Matematinė analizė III/III d.', 10);
 mathematicsAndItsApplicationsSemester3.addModule(mathematicsAndItsApplicationsSemester3module1.id);
 mathematicsAndItsApplicationsSemester3.addModule(mathematicsAndItsApplicationsSemester3module2.id);
 mathematicsAndItsApplicationsSemester3.addModule(mathematicsAndItsApplicationsSemester3module3.id);
@@ -42,12 +42,12 @@ mathematicsAndItsApplicationsSemester3.addModule(mathematicsAndItsApplicationsSe
 mathematicsAndItsApplicationsSemester3.addModule(mathematicsAndItsApplicationsSemester3module5.id);
 
 const mathematicsAndItsApplicationsSemester4 = new StudyProgramSemester();
-const mathematicsAndItsApplicationsSemester4module1 = new Module('Diferencialinės lygtys II/II d.', 5)
-const mathematicsAndItsApplicationsSemester4module2 = new Module('Duomenų bazių valdymo sistemos', 5)
-const mathematicsAndItsApplicationsSemester4module3 = new Module('Kompleksinio kintamojo funkcijų teorija', 5)
-const mathematicsAndItsApplicationsSemester4module4 = new Module('Mato ir integralo teorija', 5)
-const mathematicsAndItsApplicationsSemester4module5 = new Module('Skaitiniai metodai I/II d.', 5)
-const mathematicsAndItsApplicationsSemester4module6 = new Module('Tikimybių teorija ir matematinė statistika I/II d.', 5)
+const mathematicsAndItsApplicationsSemester4module1 = new Module('Diferencialinės lygtys II/II d.', 5);
+const mathematicsAndItsApplicationsSemester4module2 = new Module('Duomenų bazių valdymo sistemos', 5);
+const mathematicsAndItsApplicationsSemester4module3 = new Module('Kompleksinio kintamojo funkcijų teorija', 5);
+const mathematicsAndItsApplicationsSemester4module4 = new Module('Mato ir integralo teorija', 5);
+const mathematicsAndItsApplicationsSemester4module5 = new Module('Skaitiniai metodai I/II d.', 5);
+const mathematicsAndItsApplicationsSemester4module6 = new Module('Tikimybių teorija ir matematinė statistika I/II d.', 5);
 mathematicsAndItsApplicationsSemester4.addModule(mathematicsAndItsApplicationsSemester4module1.id);
 mathematicsAndItsApplicationsSemester4.addModule(mathematicsAndItsApplicationsSemester4module2.id);
 mathematicsAndItsApplicationsSemester4.addModule(mathematicsAndItsApplicationsSemester4module3.id);
@@ -56,11 +56,11 @@ mathematicsAndItsApplicationsSemester4.addModule(mathematicsAndItsApplicationsSe
 mathematicsAndItsApplicationsSemester4.addModule(mathematicsAndItsApplicationsSemester4module6.id);
 
 const mathematicsAndItsApplicationsSemester5 = new StudyProgramSemester();
-const mathematicsAndItsApplicationsSemester5module1 = new Module('Funkcinė analizė', 5)
-const mathematicsAndItsApplicationsSemester5module2 = new Module('Skaitiniai metodai II/II d.', 5)
-const mathematicsAndItsApplicationsSemester5module3 = new Module('Tikimybių teorija ir matematinė statistika II/II d.', 5)
-const mathematicsAndItsApplicationsSemester5module4 = new Module('JAVA technologijos', 5)
-const mathematicsAndItsApplicationsSemester5module5 = new Module('Vizualus programavimas', 5)
+const mathematicsAndItsApplicationsSemester5module1 = new Module('Funkcinė analizė', 5);
+const mathematicsAndItsApplicationsSemester5module2 = new Module('Skaitiniai metodai II/II d.', 5);
+const mathematicsAndItsApplicationsSemester5module3 = new Module('Tikimybių teorija ir matematinė statistika II/II d.', 5);
+const mathematicsAndItsApplicationsSemester5module4 = new Module('JAVA technologijos', 5);
+const mathematicsAndItsApplicationsSemester5module5 = new Module('Vizualus programavimas', 5);
 mathematicsAndItsApplicationsSemester5.addModule(mathematicsAndItsApplicationsSemester5module1.id);
 mathematicsAndItsApplicationsSemester5.addModule(mathematicsAndItsApplicationsSemester5module2.id);
 mathematicsAndItsApplicationsSemester5.addModule(mathematicsAndItsApplicationsSemester5module3.id);
@@ -68,12 +68,12 @@ mathematicsAndItsApplicationsSemester5.addModule(mathematicsAndItsApplicationsSe
 mathematicsAndItsApplicationsSemester5.addModule(mathematicsAndItsApplicationsSemester5module5.id);
 
 const mathematicsAndItsApplicationsSemester6 = new StudyProgramSemester();
-const mathematicsAndItsApplicationsSemester6module1 = new Module('Fizika', 5)
-const mathematicsAndItsApplicationsSemester6module2 = new Module('Matematinės fizikos lygtys', 5)
-const mathematicsAndItsApplicationsSemester6module3 = new Module('Skaičių teorija', 5)
-const mathematicsAndItsApplicationsSemester6module4 = new Module('Taikomoji statistika', 5)
-const mathematicsAndItsApplicationsSemester6module5 = new Module('Operatorių teorijos pagrindai', 5)
-const mathematicsAndItsApplicationsSemester6module6 = new Module('Variacinis skaičiavimas ir optimalus valdymas', 5)
+const mathematicsAndItsApplicationsSemester6module1 = new Module('Fizika', 5);
+const mathematicsAndItsApplicationsSemester6module2 = new Module('Matematinės fizikos lygtys', 5);
+const mathematicsAndItsApplicationsSemester6module3 = new Module('Skaičių teorija', 5);
+const mathematicsAndItsApplicationsSemester6module4 = new Module('Taikomoji statistika', 5);
+const mathematicsAndItsApplicationsSemester6module5 = new Module('Operatorių teorijos pagrindai', 5);
+const mathematicsAndItsApplicationsSemester6module6 = new Module('Variacinis skaičiavimas ir optimalus valdymas', 5);
 mathematicsAndItsApplicationsSemester6.addModule(mathematicsAndItsApplicationsSemester6module1.id);
 mathematicsAndItsApplicationsSemester6.addModule(mathematicsAndItsApplicationsSemester6module2.id);
 mathematicsAndItsApplicationsSemester6.addModule(mathematicsAndItsApplicationsSemester6module3.id);
@@ -82,11 +82,11 @@ mathematicsAndItsApplicationsSemester6.addModule(mathematicsAndItsApplicationsSe
 mathematicsAndItsApplicationsSemester6.addModule(mathematicsAndItsApplicationsSemester6module6.id);
 
 const mathematicsAndItsApplicationsSemester7 = new StudyProgramSemester();
-const mathematicsAndItsApplicationsSemester7module1 = new Module('Matematinio modeliavimo pagrindai', 5)
-const mathematicsAndItsApplicationsSemester7module2 = new Module('Patikimumo teorija', 5)
-const mathematicsAndItsApplicationsSemester7module3 = new Module('Finansų rinkų matematika', 5)
-const mathematicsAndItsApplicationsSemester7module4 = new Module('Kodavimas ir kriptografija', 5)
-const mathematicsAndItsApplicationsSemester7module5 = new Module('Algoritminė skaičių teorija', 5)
+const mathematicsAndItsApplicationsSemester7module1 = new Module('Matematinio modeliavimo pagrindai', 5);
+const mathematicsAndItsApplicationsSemester7module2 = new Module('Patikimumo teorija', 5);
+const mathematicsAndItsApplicationsSemester7module3 = new Module('Finansų rinkų matematika', 5);
+const mathematicsAndItsApplicationsSemester7module4 = new Module('Kodavimas ir kriptografija', 5);
+const mathematicsAndItsApplicationsSemester7module5 = new Module('Algoritminė skaičių teorija', 5);
 mathematicsAndItsApplicationsSemester7.addModule(mathematicsAndItsApplicationsSemester7module1.id);
 mathematicsAndItsApplicationsSemester7.addModule(mathematicsAndItsApplicationsSemester7module2.id);
 mathematicsAndItsApplicationsSemester7.addModule(mathematicsAndItsApplicationsSemester7module3.id);
@@ -94,8 +94,8 @@ mathematicsAndItsApplicationsSemester7.addModule(mathematicsAndItsApplicationsSe
 mathematicsAndItsApplicationsSemester7.addModule(mathematicsAndItsApplicationsSemester7module5.id);
 
 const mathematicsAndItsApplicationsSemester8 = new StudyProgramSemester();
-const mathematicsAndItsApplicationsSemester8module1 = new Module('Bakalauro baigiamasis darbas', 15)
-const mathematicsAndItsApplicationsSemester8module2 = new Module('Profesinė praktika', 15)
+const mathematicsAndItsApplicationsSemester8module1 = new Module('Bakalauro baigiamasis darbas', 15);
+const mathematicsAndItsApplicationsSemester8module2 = new Module('Profesinė praktika', 15);
 mathematicsAndItsApplicationsSemester8.addModule(mathematicsAndItsApplicationsSemester8module1.id);
 mathematicsAndItsApplicationsSemester8.addModule(mathematicsAndItsApplicationsSemester8module2.id);
 
@@ -149,4 +149,5 @@ export const mathematicsAndItsApplicationsModules = [
     mathematicsAndItsApplicationsSemester8module1,
     mathematicsAndItsApplicationsSemester8module2,
 ];
+
 export default mathematicsAndItsApplications;

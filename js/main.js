@@ -1,24 +1,35 @@
 import Student from './entities/student.js';
+<<<<<<< HEAD
 import softwareSystems from "./data/info-math/software-systems.js";
+=======
+import softwareSystems from './data/info-math/software-systems.js';
+>>>>>>> master
 import dataScience from './data/info-math/data-science.js';
 import mathematicsAndItsApplications from './data/info-math/mathematics-and-its-applications.js';
-import businessAndLaw from "./data/eco/business-law.js";
+import businessAndLaw from './data/eco/business-law.js';
 import nanoChemistry from './data/chem/nano-chemistry.js';
+<<<<<<< HEAD
 import medicine from './data/med/medicine.js';
+=======
+import odontology from './data/med/odontology.js';
+import biochemistry from './data/chem/biochemistry.js';
+import meteorologyAndHidrology from './data/chem/meteorology-hidrology.js';
+import nursingProgram from './data/med/nursing.js';
+>>>>>>> master
 
 const studentsInfoAndMathSoftwareSystems = [
-  new Student("Apsas", "Rekvestenis", softwareSystems.id),
-  new Student("Skaitiklis", "Pliusauskas", softwareSystems.id),
-  new Student("Bekas", "Serversaidas", softwareSystems.id),
-  new Student("Frontas", "Klijentauskas", softwareSystems.id),
-  new Student("Kompiuterė", "Komplailerytė", softwareSystems.id),
+  new Student('Apsas', 'Rekvestenis', softwareSystems.id),
+  new Student('Skaitiklis', 'Pliusauskas', softwareSystems.id),
+  new Student('Bekas', 'Serversaidas', softwareSystems.id),
+  new Student('Frontas', 'Klijentauskas', softwareSystems.id),
+  new Student('Kompiuterė', 'Komplailerytė', softwareSystems.id),
 ];
 const studentsInfoAndMathBusinessAndLaw = [
-  new Student("Jonas", "Jonaitelis", businessAndLaw.id),
-  new Student("Lukas", "Liokaitis", businessAndLaw.id),
-  new Student("Benas", "Servetcius", businessAndLaw.id),
-  new Student("Lakunas", "Kopustunas", businessAndLaw.id),
-  new Student("Gintaras", "Ziba", businessAndLaw.id),
+  new Student('Jonas', 'Jonaitelis', businessAndLaw.id),
+  new Student('Lukas', 'Liokaitis', businessAndLaw.id),
+  new Student('Benas', 'Servetcius', businessAndLaw.id),
+  new Student('Lakunas', 'Kopustunas', businessAndLaw.id),
+  new Student('Gintaras', 'Ziba', businessAndLaw.id),
 ];
 const studentsInfoAndMathDataScience = [
   new Student('Lina', 'Linaitė', dataScience.id),
@@ -41,12 +52,42 @@ const studentsChemNanoChemistry = [
   new Student('Audi', 'Spaudi', nanoChemistry.id),
   new Student('Voltas', 'Voldemortas', nanoChemistry.id),
 ];
+<<<<<<< HEAD
 const studentsMedicine = [
   new Student('Paulius', 'Kontauskas', medicine.id),
   new Student('Petras', 'Ivanauskas', medicine.id),
   new Student('Robertas', 'Pubsauskas', medicine.id),
   new Student('Jonas', 'Romaitis', medicine.id),
   new Student('Petraitis', 'Jonaitytis', medicine.id),
+=======
+const studentsOdontology = [
+  new Student('Hari', 'Krisna', odontology.id),
+  new Student('Maiklas', 'Dziordonas', odontology.id),
+  new Student('Vardenis', 'Pavardenis', odontology.id),
+  new Student('Agrastas', 'Kaspinuotis', odontology.id),
+  new Student('Jageris', 'Maisteris', odontology.id),
+];
+const studentsChemBiochemistry = [
+  new Student('Lina', 'Lentautaitė', biochemistry.id),
+  new Student('Jurgis', 'Jurgauskas', biochemistry.id),
+  new Student('Janina', 'Jantlikaitė', biochemistry.id),
+  new Student('Eliza', 'Kvakauskaitė', biochemistry.id),
+  new Student('Ernestas', 'Nevermaidis', biochemistry.id),
+];
+const studentsChemMeteorologyAndHidrology = [
+  new Student('Nemunas', 'Panemunis', meteorologyAndHidrology.id),
+  new Student('Ieva', 'Drebulaitė', meteorologyAndHidrology.id),
+  new Student('Zosė', 'Kalnienė', meteorologyAndHidrology.id),
+  new Student('Antosė', 'Draugytė', meteorologyAndHidrology.id),
+  new Student('Perkūnas', 'Plonulis', meteorologyAndHidrology.id),
+];
+const studentsInfoNursingProgram = [
+  new Student('Helga', 'Niursaitė', nursingProgram.id),
+  new Student('Denera', 'Bintytė', nursingProgram.id),
+  new Student('Florencija', 'Heterman', nursingProgram.id),
+  new Student('Liuteris', 'Solomonas', nursingProgram.id),
+  new Student('Voltas', 'Traidenis', nursingProgram.id),
+>>>>>>> master
 ];
 
 console.table(studentsInfoAndMathSoftwareSystems);
@@ -54,4 +95,11 @@ console.table(studentsInfoAndMathBusinessAndLaw);
 console.table(studentsInfoAndMathDataScience);
 console.table(studentsInfoMathematicsAndItsApplications);
 console.table(studentsChemNanoChemistry);
+<<<<<<< HEAD
 console.table(studentsMedicine)
+=======
+console.table(studentsOdontology);
+console.table(studentsChemBiochemistry);
+console.table(studentsChemMeteorologyAndHidrology);
+console.table(studentsInfoNursingProgram);
+>>>>>>> master
