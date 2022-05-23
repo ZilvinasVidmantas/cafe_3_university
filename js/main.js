@@ -1,21 +1,14 @@
 import Student from './entities/student.js';
-<<<<<<< HEAD
 import softwareSystems from "./data/info-math/software-systems.js";
-=======
-import softwareSystems from './data/info-math/software-systems.js';
->>>>>>> master
+import businessAndLaw from './data/eco/business-law.js';
 import dataScience from './data/info-math/data-science.js';
 import mathematicsAndItsApplications from './data/info-math/mathematics-and-its-applications.js';
-import businessAndLaw from './data/eco/business-law.js';
 import nanoChemistry from './data/chem/nano-chemistry.js';
-<<<<<<< HEAD
-import medicine from './data/med/medicine.js';
-=======
 import odontology from './data/med/odontology.js';
 import biochemistry from './data/chem/biochemistry.js';
 import meteorologyAndHidrology from './data/chem/meteorology-hidrology.js';
 import nursingProgram from './data/med/nursing.js';
->>>>>>> master
+import medicine from './data/med/medicine.js';
 
 const studentsInfoAndMathSoftwareSystems = [
   new Student('Apsas', 'Rekvestenis', softwareSystems.id),
@@ -52,14 +45,6 @@ const studentsChemNanoChemistry = [
   new Student('Audi', 'Spaudi', nanoChemistry.id),
   new Student('Voltas', 'Voldemortas', nanoChemistry.id),
 ];
-<<<<<<< HEAD
-const studentsMedicine = [
-  new Student('Paulius', 'Kontauskas', medicine.id),
-  new Student('Petras', 'Ivanauskas', medicine.id),
-  new Student('Robertas', 'Pubsauskas', medicine.id),
-  new Student('Jonas', 'Romaitis', medicine.id),
-  new Student('Petraitis', 'Jonaitytis', medicine.id),
-=======
 const studentsOdontology = [
   new Student('Hari', 'Krisna', odontology.id),
   new Student('Maiklas', 'Dziordonas', odontology.id),
@@ -87,7 +72,13 @@ const studentsInfoNursingProgram = [
   new Student('Florencija', 'Heterman', nursingProgram.id),
   new Student('Liuteris', 'Solomonas', nursingProgram.id),
   new Student('Voltas', 'Traidenis', nursingProgram.id),
->>>>>>> master
+];
+const studentsMedicine = [
+  new Student('Paulius', 'Kontauskas', medicine.id),
+  new Student('Petras', 'Ivanauskas', medicine.id),
+  new Student('Robertas', 'Pubsauskas', medicine.id),
+  new Student('Jonas', 'Romaitis', medicine.id),
+  new Student('Petraitis', 'Jonaitytis', medicine.id),
 ];
 
 console.table(studentsInfoAndMathSoftwareSystems);
@@ -95,11 +86,8 @@ console.table(studentsInfoAndMathBusinessAndLaw);
 console.table(studentsInfoAndMathDataScience);
 console.table(studentsInfoMathematicsAndItsApplications);
 console.table(studentsChemNanoChemistry);
-<<<<<<< HEAD
-console.table(studentsMedicine)
-=======
 console.table(studentsOdontology);
 console.table(studentsChemBiochemistry);
 console.table(studentsChemMeteorologyAndHidrology);
 console.table(studentsInfoNursingProgram);
->>>>>>> master
+console.table(studentsMedicine)
