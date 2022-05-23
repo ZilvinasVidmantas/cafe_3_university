@@ -3,8 +3,6 @@ import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
 import { infoAndMathFaculty } from '../faculties.js';
 
-
-
 const softwareSystems = new StudyProgram('Programų sistemos', infoAndMathFaculty.id);
 
 const softwareSystemsSemester1 = new StudyProgramSemester();
