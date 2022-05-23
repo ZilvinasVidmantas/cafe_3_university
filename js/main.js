@@ -5,6 +5,7 @@ import mathematicsAndItsApplications from './data/info-math/mathematics-and-its-
 import businessAndLaw from "./data/eco/business-law.js";
 import nanoChemistry from './data/chem/nano-chemistry.js';
 import odontology from './data/med/odontology.js';
+import biochemistry from './data/chem/biochemistry.js';
 
 const studentsInfoAndMathSoftwareSystems = [
   new Student("Apsas", "Rekvestenis", softwareSystems.id),
@@ -48,6 +49,13 @@ const studentsOdontology = [
   new Student('Agrastas', 'Kaspinuotis', odontology.id),
   new Student('Jageris', 'Maisteris', odontology.id),
 ];
+const studentsChemBiochemistry = [
+  new Student('Lina', 'Lentautaitė', biochemistry.id),
+  new Student('Jurgis', 'Jurgauskas', biochemistry.id),
+  new Student('Janina', 'Jantlikaitė', biochemistry.id),
+  new Student('Eliza', 'Kvakauskaitė', biochemistry.id),
+  new Student('Ernestas', 'Nevermaidis', biochemistry.id),
+];
 
 console.table(studentsInfoAndMathSoftwareSystems);
 console.table(studentsInfoAndMathBusinessAndLaw);
@@ -55,3 +63,4 @@ console.table(studentsInfoAndMathDataScience);
 console.table(studentsInfoMathematicsAndItsApplications);
 console.table(studentsChemNanoChemistry);
 console.table(studentsOdontology);
+console.table(studentsChemBiochemistry);

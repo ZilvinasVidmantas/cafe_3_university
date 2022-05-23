@@ -1,7 +1,7 @@
 import StudyProgram from '../../entities/study-program.js';
 import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
-import { medicineFaculty } from './data/faculties.js';
+import { medicineFaculty } from '../faculties.js';
 
 const odontology = new StudyProgram('Odontologija', medicineFaculty.id);
 
