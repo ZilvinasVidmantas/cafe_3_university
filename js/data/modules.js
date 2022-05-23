@@ -3,6 +3,8 @@ import { mathematicsAndItsApplicationsModules } from './info-math/mathematics-an
 import { dataScienceModules } from './info-math/data-science.js';
 import { economicsAndBusinessModules } from "./eco/business-law.js";
 import { nanoChemistryModules} from './chem/nano-chemistry.js';
+import { odontologyModules } from './med/odontology.js';
+import { biochemistryModules } from './chem/biochemistry.js';
 import { informaticsSystemsModules } from './info-math/informatics-engineering.js';
 
 const modules = [
@@ -11,6 +13,8 @@ const modules = [
   ...economicsAndBusinessModules,
   ...mathematicsAndItsApplicationsModules,
   ...nanoChemistryModules,
+  ...odontologyModules,
+  ...biochemistryModules,
   ...informaticsSystemsModules
 ];
 
