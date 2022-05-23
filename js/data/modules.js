@@ -1,3 +1,5 @@
+import { economicsAndBusinessModules } from './eco/business-law.js';
+import { nanoChemistryModules } from './chem/nano-chemistry.js';
 import { softwareSystemsModules } from './info-math/software-systems.js';
 import { mathematicsAndItsApplicationsModules } from './info-math/mathematics-and-its-applications.js';
 import { dataScienceModules } from './info-math/data-science.js';
@@ -10,6 +12,7 @@ import { nursingProgramModules } from './med/nursing.js';
 import { informaticsSystemsModules } from './info-math/informatics-engineering.js';
 import { occupationalTherapyModules } from './med/occupational-therapy.js';
 import { pharmacyModules } from './med/pharmacy.js';
+import { medicinesModules } from './med/medicine.js';
 
 const modules = [
   ...softwareSystemsModules,
@@ -25,6 +28,7 @@ const modules = [
   ...informaticsSystemsModules,
   ...occupationalTherapyModules,
   ...pharmacyModules,
+  ...medicinesModules,
 ];
 
 export default modules;

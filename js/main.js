@@ -1,8 +1,8 @@
 import Student from './entities/student.js';
-import softwareSystems from './data/info-math/software-systems.js';
+import softwareSystems from "./data/info-math/software-systems.js";
+import businessAndLaw from './data/eco/business-law.js';
 import dataScience from './data/info-math/data-science.js';
 import mathematicsAndItsApplications from './data/info-math/mathematics-and-its-applications.js';
-import businessAndLaw from './data/eco/business-law.js';
 import nanoChemistry from './data/chem/nano-chemistry.js';
 import odontology from './data/med/odontology.js';
 import biochemistry from './data/chem/biochemistry.js';
@@ -11,6 +11,7 @@ import nursingProgram from './data/med/nursing.js';
 import informaticsSystems from './data/info-math/informatics-engineering.js';
 import occupationalTherapy from './data/med/occupational-therapy.js';
 import pharmacy from './data/med/pharmacy.js';
+import medicine from './data/med/medicine.js';
 
 const studentsInfoAndMathSoftwareSystems = [
   new Student('Apsas', 'Rekvestenis', softwareSystems.id),
@@ -96,6 +97,13 @@ const studentsMedPharmacy = [
   new Student('Kateteris', 'Lancetauskas', pharmacy.id),
   new Student('Analizė', 'Kraujauskė', pharmacy.id),
 ];
+const studentsMedicine = [
+  new Student('Paulius', 'Kontauskas', medicine.id),
+  new Student('Petras', 'Ivanauskas', medicine.id),
+  new Student('Robertas', 'Pubsauskas', medicine.id),
+  new Student('Jonas', 'Romaitis', medicine.id),
+  new Student('Petraitis', 'Jonaitytis', medicine.id),
+];
 
 console.table(studentsInfoAndMathSoftwareSystems);
 console.table(studentsInfoAndMathBusinessAndLaw);
@@ -109,3 +117,4 @@ console.table(studentsInfoNursingProgram);
 console.table(studentsInfoAndMathinformaticsSystems);
 console.table(studentsOccupationalTherapy);
 console.table(studentsMedPharmacy);
+console.table(studentsMedicine);
