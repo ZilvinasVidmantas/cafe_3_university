@@ -98,14 +98,14 @@ const informaticsSystemsSemester8module2 = new Module('Profesinė praktika (Info
 informaticsSystemsSemester8.addModule(informaticsSystemsSemester8module1.id);
 informaticsSystemsSemester8.addModule(informaticsSystemsSemester8module2.id);
 
-informaticsSystems.addSemester(1, informaticsSystemsSemester1)
-informaticsSystems.addSemester(2, informaticsSystemsSemester2)
-informaticsSystems.addSemester(3, informaticsSystemsSemester3)
-informaticsSystems.addSemester(4, informaticsSystemsSemester4)
-informaticsSystems.addSemester(5, informaticsSystemsSemester5)
-informaticsSystems.addSemester(6, informaticsSystemsSemester6)
-informaticsSystems.addSemester(7, informaticsSystemsSemester7)
-informaticsSystems.addSemester(8, informaticsSystemsSemester8)
+informaticsSystems.addSemester(1, informaticsSystemsSemester1);
+informaticsSystems.addSemester(2, informaticsSystemsSemester2);
+informaticsSystems.addSemester(3, informaticsSystemsSemester3);
+informaticsSystems.addSemester(4, informaticsSystemsSemester4);
+informaticsSystems.addSemester(5, informaticsSystemsSemester5);
+informaticsSystems.addSemester(6, informaticsSystemsSemester6);
+informaticsSystems.addSemester(7, informaticsSystemsSemester7);
+informaticsSystems.addSemester(8, informaticsSystemsSemester8);
 
 export const informaticsSystemsModules = [
   informaticsSystemsSemester1module1,
