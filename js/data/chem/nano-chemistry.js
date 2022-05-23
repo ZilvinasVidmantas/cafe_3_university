@@ -1,5 +1,6 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 import StudyProgram from '../../entities/study-program.js';
 import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
@@ -132,6 +133,8 @@ export default nanoChemistry;
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 import StudyProgram from '../../entities/study-program.js';
 import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
@@ -262,6 +265,9 @@ export const nanoChemistryModules = [
 
 export default nanoChemistry;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
