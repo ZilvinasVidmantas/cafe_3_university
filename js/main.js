@@ -19,4 +19,5 @@ const studentsEconomicsFinance =[
   new Student('Irena' , 'Degutienė', economicsFinance.id ),
 ]
 
+console.table(studentsEconomicsFinance);
 
