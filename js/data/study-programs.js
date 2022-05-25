@@ -3,6 +3,7 @@ import psychology from "./philo/psychology.js";
 
 const studyPrograms = [
   softwareSystems,
+  psychology,
   // studyProgram2,
   // studyProgram3,
   // studyProgram4,
