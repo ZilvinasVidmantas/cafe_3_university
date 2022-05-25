@@ -10,4 +10,12 @@ const studentsInfoSoftwareSystems = [
   new Student('Kompiuterė', 'Komplailerytė', softwareSystems.id),
 ];
 
+const studentsPsychology = [
+  new Student('Monika', 'Monikute', phychology.id),
+  new Student('Lapas', 'Medeliauskas', psychology.id),
+  new Student('Inga', 'Ingute', psychology.id),
+  new Student('Dovydas', 'Retusauskas', psychology.id),
+  new Student('Azuolas', 'Miskinis', phychology.id),
+]
+
 
