@@ -1,9 +1,9 @@
 import StudyProgram from '../../entities/faculty.js';
 import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
-import { ecoFaculty } from '../faculties.js';
+import { economicsAndBusinessFaculty } from '../faculties.js';
 
-const managementEnglish = new StudyProgram('Vadyba anglų k.', ecoFaculty.id);
+const managementEnglish = new StudyProgram('Vadyba anglų k.', economicsAndBusinessFaculty.id);
 
 const managementEnglishSemester1 = new StudyProgramSemester();
 const managementEnglishSemester1module1 = new Module('Dalykinė anglų kalba C1', 5);
@@ -141,4 +141,4 @@ export const managementEnglishModules = [
     managementEnglishSemester8module2,
 ];  
 
-export default management-english;
+export default managementEnglish;
