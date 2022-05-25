@@ -1,9 +1,13 @@
-import Faculty from '../entities/faculty.js';
+import Faculty from "../entities/faculty.js";
 
-const faculties = [];
+export const infoAndMathFaculty = new Faculty("Informatikos ir matematikos fakultetas");
+export const economicsAndBusinessFaculty = new Faculty("Ekonomikos ir verslo administravimo fakultetas");
+export const chemistryAndGeoScienceFaculty = new Faculty('Chemijos ir geomokslų fakultetas');
 
-export const informaticsFaculty = new Faculty('Informatikos fakultetas');
-
-faculties.push(informaticsFaculty);
+const faculties = [
+  infoAndMathFaculty,
+  economicsAndBusinessFaculty,
+  chemistryAndGeoScienceFaculty,
+]
 
 export default faculties;

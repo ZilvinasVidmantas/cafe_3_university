@@ -1,12 +1,9 @@
-import { softwareSystemsModules } from './info/software-systems.js';
-import { informationTechnologyModules } from './info/information-technology.js';
+import { softwareSystemsModules } from './info-math/software-systems.js';
+import { informationTechnologyModules } from './info-math/information-technology.js';
+
 const modules = [
   ...softwareSystemsModules,
   ...informationTechnologyModules,
-  // ...softwareSystemsModules,
-  // ...lawModules,
-  // ...biologyModules,
-  // ...chemistryModules,
 ];
 
 export default modules;

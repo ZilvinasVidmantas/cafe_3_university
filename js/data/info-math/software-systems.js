@@ -1,11 +1,9 @@
 import StudyProgram from '../../entities/study-program.js';
 import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
-import { informaticsFaculty } from '../faculties.js';
+import { infoAndMathFaculty } from '../faculties.js';
 
-export const softwareSystemsModules = [];
-
-const softwareSystems = new StudyProgram('Programų sistemos', informaticsFaculty.id);
+const softwareSystems = new StudyProgram('Programų sistemos', infoAndMathFaculty.id);
 
 const softwareSystemsSemester1 = new StudyProgramSemester();
 const softwareSystemsSemester1module1 = new Module('Akademinė ir mokslinė anglų kalba C1 I/II d.', 5)
@@ -104,7 +102,7 @@ softwareSystems.addSemester(6, softwareSystemsSemester6);
 softwareSystems.addSemester(7, softwareSystemsSemester7);
 softwareSystems.addSemester(8, softwareSystemsSemester8);
 
-softwareSystemsModules.push(
+export const softwareSystemsModules = [
   softwareSystemsSemester1module1,
   softwareSystemsSemester1module2,
   softwareSystemsSemester1module3,
@@ -141,6 +139,6 @@ softwareSystemsModules.push(
   softwareSystemsSemester7module5,
   softwareSystemsSemester8module1,
   softwareSystemsSemester8module2,
-);
+];
 
 export default softwareSystems;
