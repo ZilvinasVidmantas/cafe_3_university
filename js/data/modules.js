@@ -16,6 +16,7 @@ import { medicinesModules } from './med/medicine.js';
 import { philosophyModules } from './philo/philosophy.js';
 import { economicsFinanceModules } from './eco/economics-finance.js';
 import { bioinformaticsModules } from './info-math/bioinformatics.js';
+import { chemistryModules } from './chem/chemistry.js';
 
 const modules = [
   ...softwareSystemsModules,
@@ -35,6 +36,7 @@ const modules = [
   ...philosophyModules,
   ...economicsFinanceModules,
   ...bioinformaticsModules,
+  ...chemistryModules,
 ];
 
 export default modules;
