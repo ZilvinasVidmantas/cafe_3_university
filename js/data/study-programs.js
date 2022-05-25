@@ -1,5 +1,5 @@
 import softwareSystems from "./info/software-systems.js";
-import psychology from "./info/psichologija.js";
+import psychology from "./philo/psychology.js";
 
 const studyPrograms = [
   softwareSystems,

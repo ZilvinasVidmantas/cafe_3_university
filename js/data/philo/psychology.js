@@ -1,17 +1,11 @@
-import Faculty from './entities/faculty.js';
-import StudyProgram from './entities/study-program.js';
-import StudyProgramSemester from './entities/study-program-semester.js';
-import Module from './entities/module.js';
+import StudyProgram from '../../entities/study-program.js';
+import StudyProgramSemester from '../../entities/study-program-semester.js';
+import Module from '../../entities/module.js';
+import { philosophyFaculty } from '../faculties.js';
 
-export const faculties = [];
-export const studyPrograms = [];
-export const modules = [];
-
-const philosophyFaculty = new Faculty('Filosofijos fakultetas');
-faculties.push(philosophyFaculty);
+export const psychologyModules = [];
 
 const psychology = new StudyProgram('Psichologija', philosophyFaculty.id);
-studyPrograms.push(psychology);
 
 const psychologySemester1 = new StudyProgramSemester();
 const psychologySemester1module1 = new Module('Evoliucinė psichologija', 5)
@@ -149,7 +143,8 @@ modules.push(
   psychologySemester7module6,
   psychologySemester8module1,
   psychologySemester8module2,
-  psychologySemester8module3,);
+  psychologySemester8module3,
+  );
 
   export default psychology;
   
