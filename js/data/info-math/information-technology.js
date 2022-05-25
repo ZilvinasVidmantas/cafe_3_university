@@ -1,9 +1,9 @@
 import StudyProgram from '../../entities/study-program.js';
 import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
-import { informaticsFaculty } from '../faculties.js';
+import { infoAndMathFaculty } from '../faculties.js';
 
-const informationTechnology = new StudyProgram('Informacinės teschnologijos', informaticsFaculty.id);
+const informationTechnology = new StudyProgram('Informacinės teschnologijos', infoAndMathFaculty.id);
 
 const informationTechnologySemester1 = new StudyProgramSemester();
 const informationTechnologySemester1module1 = new Module('Akademinė ir mokslinė anglų kalba C1 I/II d.', 5);
