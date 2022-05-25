@@ -152,6 +152,13 @@ const studentsInformationTechnology =[
   new Student('Dovjotas', 'Jaugelas', informationTechnology.id),
   new Student('Dovnoras', 'Viligaila', informationTechnology.id),
 ];
+const studentsInformatics = [
+  new Student('Vargas', 'Bomžuolis', informatics.id),
+  new Student('Vitalija', 'Katunskytė', informatics.id),
+  new Student('Bestuburis', 'Nausėda', informatics.id),
+  new Student('Vladimiras', 'Zelenskis', informatics.id),
+  new Student('Don', 'Kichotas', informatics.id),
+];
 
 console.table(studentsInfoAndMathSoftwareSystems);
 console.table(studentsInfoAndMathBusinessAndLaw);
@@ -172,3 +179,4 @@ console.table(studentsBioinformatics);
 console.table(studentsChemistry);
 console.table(studentsManagementEnglish);
 console.table(studentsInformationTechnology);
+console.table(studentsInformatics);

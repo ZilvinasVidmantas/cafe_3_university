@@ -17,6 +17,7 @@ import { bioinformaticsModules } from './info-math/bioinformatics.js';
 import { chemistryModules } from './chem/chemistry.js';
 import { managementEnglishModules } from './eco/management-english.js';
 import { informationTechnologyModules } from './info-math/information-technology.js';
+import { informaticsModules } from './info-math/informatics.js';
 
 const modules = [
   ...softwareSystemsModules,
@@ -39,6 +40,7 @@ const modules = [
   ...chemistryModules,
   ...managementEnglishModules,
   ...informationTechnologyModules,
+  ...informaticsModules,
 ];
 
 export default modules;

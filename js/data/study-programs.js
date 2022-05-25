@@ -17,6 +17,7 @@ import bioinformatics from './info-math/bioinformatics.js';
 import chemistry from './chem/chemistry.js';
 import managementEnglish from './eco/management-english.js';
 import informationTechnology from './info-math/information-technology.js';
+import informatics from './info-math/informatics.js';
 
 const studyPrograms = [
   softwareSystems,
@@ -38,6 +39,7 @@ const studyPrograms = [
   chemistry,
   managementEnglish,
   informationTechnology,
+  informatics,
 ];
 
 export default studyPrograms;
