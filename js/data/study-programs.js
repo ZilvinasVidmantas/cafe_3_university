@@ -7,7 +7,13 @@ import odontology from './med/odontology.js';
 import biochemistry from './chem/biochemistry.js';
 import meteorologyAndHidrology from './chem/meteorology-hidrology.js';
 import nursingProgram from './med/nursing.js';
-import informaticsSystems from "./info-math/informatics-engineering.js";
+import informaticsSystems from './info-math/informatics-engineering.js';
+import occupationalTherapy from './med/occupational-therapy.js';
+import pharmacy from './med/pharmacy.js';
+import medicine from './med/medicine.js';
+import philosophy from './philo/philosophy.js';
+import economicsFinance from './eco/economics-finance.js';
+import bioinformatics from './info-math/bioinformatics.js';
 import chemistry from './chem/chemistry.js';
 
 const studyPrograms = [
@@ -21,6 +27,12 @@ const studyPrograms = [
   meteorologyAndHidrology,
   nursingProgram,
   informaticsSystems,
+  occupationalTherapy,
+  pharmacy,
+  medicine,
+  philosophy,
+  economicsFinance,
+  bioinformatics,
   chemistry,
 ];
 

@@ -1,14 +1,20 @@
 import Student from './entities/student.js';
 import softwareSystems from './data/info-math/software-systems.js';
+import businessAndLaw from './data/eco/business-law.js';
 import dataScience from './data/info-math/data-science.js';
 import mathematicsAndItsApplications from './data/info-math/mathematics-and-its-applications.js';
-import businessAndLaw from './data/eco/business-law.js';
 import nanoChemistry from './data/chem/nano-chemistry.js';
 import odontology from './data/med/odontology.js';
 import biochemistry from './data/chem/biochemistry.js';
 import meteorologyAndHidrology from './data/chem/meteorology-hidrology.js';
 import nursingProgram from './data/med/nursing.js';
 import informaticsSystems from './data/info-math/informatics-engineering.js';
+import occupationalTherapy from './data/med/occupational-therapy.js';
+import pharmacy from './data/med/pharmacy.js';
+import medicine from './data/med/medicine.js';
+import philosophy from './data/philo/philosophy.js';
+import economicsFinance from './data/eco/economics-finance.js';
+import bioinformatics from './data/info-math/bioinformatics.js';
 import chemistry from './data/chem/chemistry.js';
 
 const studentsInfoAndMathSoftwareSystems = [
@@ -88,6 +94,48 @@ const studentsInfoAndMathinformaticsSystems = [
   new Student('Rima', 'R', informaticsSystems.id),
   new Student('Rūta', 'R', informaticsSystems.id),
 ];
+const studentsOccupationalTherapy = [
+  new Student('Antanas', 'Antanaitis', occupationalTherapy.id),
+  new Student('Virgis', 'Virgilaitis', occupationalTherapy.id),
+  new Student('Jonas', 'Jonaitis', occupationalTherapy.id),
+  new Student('Pijus', 'Pijauskas', occupationalTherapy.id),
+  new Student('Vidas', 'Vidaitis', occupationalTherapy.id),
+];
+const studentsMedPharmacy = [
+  new Student('Medikas', 'Medikaitis', pharmacy.id),
+  new Student('Švirkštas', 'Klizmauskas', pharmacy.id),
+  new Student('Lašelinė', 'Adatienė', pharmacy.id),
+  new Student('Kateteris', 'Lancetauskas', pharmacy.id),
+  new Student('Analizė', 'Kraujauskė', pharmacy.id),
+];
+const studentsMedicine = [
+  new Student('Paulius', 'Kontauskas', medicine.id),
+  new Student('Petras', 'Ivanauskas', medicine.id),
+  new Student('Robertas', 'Pubsauskas', medicine.id),
+  new Student('Jonas', 'Romaitis', medicine.id),
+  new Student('Petraitis', 'Jonaitytis', medicine.id),
+];
+const philosophyStudents = [
+  new Student('Antanas', 'Benzinas', philosophy.id),
+  new Student('Betonas', 'Kietas', philosophy.id),
+  new Student('Tomas', 'Tomauskas', philosophy.id),
+  new Student('Gertrūda', 'Pavardenytė', philosophy.id),
+  new Student('Vyšnia', 'Bordiūrytė', philosophy.id),
+];
+const studentsEconomicsFinance = [
+  new Student('Kazimira Danutė', 'Prunskienė', economicsFinance.id),
+  new Student('Algirdas Mykolas', 'Brazauskas', economicsFinance.id),
+  new Student('Česlovas', 'Juršėnas', economicsFinance.id),
+  new Student('Rolandas', 'Paksas', economicsFinance.id),
+  new Student('Irena', 'Degutienė', economicsFinance.id),
+];
+const studentsBioinformatics = [
+  new Student('Liepa', 'Liepaitė', bioinformatics.id),
+  new Student('Rasa', 'Rasaitė', bioinformatics.id),
+  new Student('Jonas', 'Smitas', bioinformatics.id),
+  new Student('Regimantas', 'Regis', bioinformatics.id),
+  new Student('Montvydas', 'Montvis', bioinformatics.id),
+];
 
 console.table(studentsInfoAndMathSoftwareSystems);
 console.table(studentsInfoAndMathBusinessAndLaw);
@@ -99,4 +147,10 @@ console.table(studentsChemBiochemistry);
 console.table(studentsChemMeteorologyAndHidrology);
 console.table(studentsInfoNursingProgram);
 console.table(studentsInfoAndMathinformaticsSystems);
+console.table(studentsOccupationalTherapy);
+console.table(studentsMedPharmacy);
+console.table(studentsMedicine);
+console.table(philosophyStudents);
+console.table(studentsEconomicsFinance);
+console.table(studentsBioinformatics);
 console.table(studentsChemistry);
