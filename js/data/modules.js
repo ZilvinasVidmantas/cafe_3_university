@@ -1,5 +1,3 @@
-import { economicsAndBusinessModules } from './eco/business-law.js';
-import { nanoChemistryModules } from './chem/nano-chemistry.js';
 import { softwareSystemsModules } from './info-math/software-systems.js';
 import { mathematicsAndItsApplicationsModules } from './info-math/mathematics-and-its-applications.js';
 import { dataScienceModules } from './info-math/data-science.js';
@@ -18,6 +16,7 @@ import { economicsFinanceModules } from './eco/economics-finance.js';
 import { bioinformaticsModules } from './info-math/bioinformatics.js';
 import { chemistryModules } from './chem/chemistry.js';
 import { managementEnglishModules } from './eco/management-english.js';
+import { informationTechnologyModules } from './info-math/information-technology.js';
 
 const modules = [
   ...softwareSystemsModules,
@@ -39,6 +38,7 @@ const modules = [
   ...bioinformaticsModules,
   ...chemistryModules,
   ...managementEnglishModules,
+  ...informationTechnologyModules,
 ];
 
 export default modules;
