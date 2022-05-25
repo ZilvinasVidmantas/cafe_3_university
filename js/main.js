@@ -16,6 +16,7 @@ const studentsPsychology = [
   new Student('Inga', 'Ingute', psychology.id),
   new Student('Dovydas', 'Retusauskas', psychology.id),
   new Student('Azuolas', 'Miskinis', phychology.id),
-]
+];
+console.table(studentsPsychology);
 
 
