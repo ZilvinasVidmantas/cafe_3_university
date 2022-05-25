@@ -1,4 +1,4 @@
-import StudyProgram from '../../entities/faculty.js';
+import StudyProgram from '../../entities/study-program.js';
 import StudyProgramSemester from '../../entities/study-program-semester.js';
 import Module from '../../entities/module.js';
 import { economicsAndBusinessFaculty } from '../faculties.js';

@@ -91,7 +91,7 @@ const studentsOccupationalTherapy = [
   new Student('Vidas', 'Vidaitis', occupationalTherapy.id),
 ];
 
-const studentsManagementEnglis = [
+const studentsManagementEnglish = [
   new Student('Lina', 'Pakalnyte', managementEnglish.id),
   new Student('Ona', 'Onyskaite', managementEnglish.id),
   new Student('Benas', 'Benauskass', managementEnglish.id),
@@ -109,5 +109,5 @@ console.table(studentsChemMeteorologyAndHidrology);
 console.table(studentsInfoNursingProgram);
 console.table(studentsInfoAndMathinformaticsSystems);
 console.table(studentsOccupationalTherapy);
-console.table(studentsManagementEnglis);
+console.table(studentsManagementEnglish);
 
