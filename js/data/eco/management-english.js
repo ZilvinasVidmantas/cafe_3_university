@@ -35,7 +35,7 @@ const managementEnglishSemester3 = new StudyProgramSemester();
 const managementEnglishSemester3module1 = new Module('Organizacijų socialinė atsakomybė ir etika', 5);
 const managementEnglishSemester3module2 = new Module('Verslo derybos ir psichologija', 5);
 const managementEnglishSemester3module3 = new Module('Verslo teisė', 5);
-const managementEnglishSemester3module4 = new Module('Verslumas', 5)
+const managementEnglishSemester3module4 = new Module('Verslumas', 5);
 managementEnglishSemester3.addModule(managementEnglishSemester3module1.id);
 managementEnglishSemester3.addModule(managementEnglishSemester3module2.id);
 managementEnglishSemester3.addModule(managementEnglishSemester3module3.id);
@@ -67,7 +67,7 @@ const managementEnglishSemester6 = new StudyProgramSemester();
 const managementEnglishSemester6module1 = new Module('Inovacijų valdymas', 5)
 const managementEnglishSemester6module2 = new Module('Lyderystė ir pokyčių valdymas', 5);
 const managementEnglishSemester6module3 = new Module('Personalo vadyba', 10);
-const managementEnglishSemester6module4 = new Module('Verslo modeliai ir operacijos', 5)
+const managementEnglishSemester6module4 = new Module('Verslo modeliai ir operacijos', 5);
 const managementEnglishSemester6module5 = new Module('Elektroninis verslas', 5);
 managementEnglishSemester6.addModule(managementEnglishSemester6module1.id);
 managementEnglishSemester6.addModule(managementEnglishSemester6module2.id);
@@ -76,7 +76,7 @@ managementEnglishSemester6.addModule(managementEnglishSemester6module4.id);
 managementEnglishSemester6.addModule(managementEnglishSemester6module5.id);
 
 const managementEnglishSemester7 = new StudyProgramSemester();
-const managementEnglishSemester7module1 = new Module('Duomenų analizė ir interpretavimas', 5)
+const managementEnglishSemester7module1 = new Module('Duomenų analizė ir interpretavimas', 5);
 const managementEnglishSemester7module2 = new Module('Įmonės veiklos vertinimas', 5);
 const managementEnglishSemester7module3 = new Module('Kokybės vadyba', 5);
 const managementEnglishSemester7module4 = new Module('Kursinis darbas', 5);
