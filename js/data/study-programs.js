@@ -13,6 +13,7 @@ import pharmacy from './med/pharmacy.js';
 import medicine from './med/medicine.js';
 import philosophy from './philo/philosophy.js';
 import economicsFinance from './eco/economics-finance.js';
+import bioinformatics from './info-math/bioinformatics.js';
 
 const studyPrograms = [
   softwareSystems,
@@ -30,6 +31,7 @@ const studyPrograms = [
   medicine,
   philosophy,
   economicsFinance,
+  bioinformatics,
 ];
 
 export default studyPrograms;

@@ -14,7 +14,7 @@ import pharmacy from './data/med/pharmacy.js';
 import medicine from './data/med/medicine.js';
 import philosophy from './data/philo/philosophy.js';
 import economicsFinance from './data/eco/economics-finance.js';
-
+import bioinformatics from './data/info-math/bioinformatics.js';
 
 const studentsInfoAndMathSoftwareSystems = [
   new Student('Apsas', 'Rekvestenis', softwareSystems.id),
@@ -121,6 +121,13 @@ const studentsEconomicsFinance = [
   new Student('Rolandas', 'Paksas', economicsFinance.id),
   new Student('Irena', 'Degutienė', economicsFinance.id),
 ];
+const studentsBioinformatics = [
+  new Student('Liepa', 'Liepaitė', bioinformatics.id),
+  new Student('Rasa', 'Rasaitė', bioinformatics.id),
+  new Student('Jonas', 'Smitas', bioinformatics.id),
+  new Student('Regimantas', 'Regis', bioinformatics.id),
+  new Student('Montvydas', 'Montvis', bioinformatics.id),
+];
 
 console.table(studentsInfoAndMathSoftwareSystems);
 console.table(studentsInfoAndMathBusinessAndLaw);
@@ -137,3 +144,4 @@ console.table(studentsMedPharmacy);
 console.table(studentsMedicine);
 console.table(philosophyStudents);
 console.table(studentsEconomicsFinance);
+console.table(studentsBioinformatics);
