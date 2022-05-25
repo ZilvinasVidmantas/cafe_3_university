@@ -15,6 +15,7 @@ import philosophy from './philo/philosophy.js';
 import economicsFinance from './eco/economics-finance.js';
 import bioinformatics from './info-math/bioinformatics.js';
 import chemistry from './chem/chemistry.js';
+import managementEnglish from './eco/management-english.js';
 
 const studyPrograms = [
   softwareSystems,
@@ -34,6 +35,7 @@ const studyPrograms = [
   economicsFinance,
   bioinformatics,
   chemistry,
+  managementEnglish,
 ];
 
 export default studyPrograms;
